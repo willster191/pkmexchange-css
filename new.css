@@ -1,7 +1,5 @@
 
 
-
-
 *, *:before, *:after { -webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box;}
 
 body {
@@ -594,7 +592,7 @@ body {
 				.disabled .morelink a {color: #4d5763;}
 
 				.disabled .morelink:after {
-					content: "You must be approved by the moderators in order to submit.";
+					content: "The subreddit is closed for today, come back tomorrow!";
 					background-color: #CFCFCF;
 					color: #4d5763;
 				}
@@ -1057,14 +1055,14 @@ body {
 						.linkflair-physical .thumbnail.self {background: url(%%physical%%) 0px 0px;}
 
 					.linkflair-sphysical .linkflairlabel {
-						background-color: #ec7f7f;
+						background-color: #ea4848;
 						color: #fff;
 					}
 
 						.linkflair-sphysical .thumbnail.self {background: url(%%sphysical%%) 0px 0px;}
 
 					.linkflair-bphysical .linkflairlabel {
-						background-color: #e4c783;
+						background-color: #ffc0cb;
 						color: #fff;
 					}
 
@@ -1259,7 +1257,7 @@ body {
 						font-size: 10px;
 						padding: 1px 3px 1px 2px;
 						margin-left: 2px;
-						background-color: #f00;
+						background-color: none;
 						color: #fff !important;
 						vertical-align: middle;
 						border-radius: 1px;
@@ -3200,10 +3198,11 @@ a[href$="#bs-sportball"] {
 }
 
 .flair-reliccrown::after, a[href$="#ref-reliccrown"] {
-	background-position: -122px 0px;
-	width: 24px;
+	background-position: -118px 0px;
+	width: 28px;
 	height: 24px;
 }
+
 
 
 /* Pokemon flairs */
@@ -3547,6 +3546,14 @@ a[href$="#bs-sportball"] {
 	background-position: -659px -209px;
 }
 
+.flair-megablaziken::before, a[href^="#pk-megablaziken"] {
+	background-position: -271px -269px;
+}
+
+.flair-pikachuphd::before, a[href^="#pk-pikachuphd"] {
+	background-position: -172px -871px;
+}
+
 @-webkit-keyframes megabilly{
 	29% { background-position: 0px -35px}
 	30% { background-position: 0px 0px }
@@ -3665,4 +3672,124 @@ a[href$="#bs-sportball"] {
 	visibility: visible !important
 }
 
+a[href$="user/robertoxmed"] {visibility:hidden;font-size:0}
 
+a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visible;font-size:12px;color:inherit;background:inherit;border-radius:inherit;margin-right:0.5em}
+
+.side a[href$="user/robertoxmed"]:after {font-size:12px;}
+
+.tagline .userattrs .cakeday {
+	background-image: url(%%mflairs%%);
+	content: "";
+	background-color: none;
+	display: inline-block;
+	vertical-align: middle;
+	background-position: 0px -25px;
+	width: 30px;
+	height: 30px;
+	margin: 0px 5px;
+}
+
+
+	.md table {
+		border:1px solid #ccc;
+		border-width:1px 0 1px 1px
+	}
+
+	.md table * { border:0 }
+
+	.md table thead,.wiki-page-index .md table tr { border-bottom:1px solid #ccc }
+	.md table th { text-align:center }
+	.md table thead { background-color:#f3f3f3 } 
+	.md table tbody tr:nth-child(odd){ background-color:#fff }
+	.md table tbody tr:nth-child(even){ background-color:#ccc }
+	.md table td,.md table th { padding:4px 8px;border-right:1px solid #ccc }
+
+	body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
+	
+	.md ol,.md ul {
+		margin:10px 0;
+		padding:6px;
+		background-color:transparent;
+		border-radius:2px
+	}
+	.md ol,.md ol li,.md ul,.md ul li { 
+		-moz-border-radius:2px;
+		-webkit-border-radius:2px;
+		-o-border-radius:2px;
+		-ms-border-radius:2px;
+		-khtml-border-radius:2px
+	}
+
+	.md ul{
+		list-style:disc inside
+	}
+	
+	.md ol{
+		list-style:none;counter-reset:inc 0
+	}
+	
+	.md ol li,.md ul li{
+		padding:4px 8px;border-radius:2px
+	}
+
+	.md ol li ol,.md ul li ul { padding:0 }
+
+	.md ol li:nth-child(odd),.md ul li:nth-child(odd){background-color:#dedede}
+
+
+	.md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;color:#000}
+
+	.md h3+table{ border-color:#5BA2FF }
+
+	.md h3+table td,.md h3+table th{border-right-color:#5BA2FF}
+
+	.md h3+table thead,.md h3+table tr:nth-child(even){background-color:#CAE1FF}
+
+	.md h4+table{border-color:#7623e8}.md h4+table td,.md h4+table th{border-right-color:#7623e8}
+
+	.md h4+table thead,.md h4+table tr:nth-child(even){background-color:rgba(143,80,231,.7)}
+
+	.md h5+table{border-color:#3e23e8}
+
+	.md h5+table td,.md h5+table th{border-right-color:#3e23e8}
+
+	.md h5+table thead,.md h5+table tr:nth-child(even){background-color:rgba(35,179,232,.7)}
+
+	.md h6+table{border-color:#e82323}
+
+	.md h6+table td,.md h6+table th{border-right-color:#e82323}
+
+	.md h6+table thead,.md h6+table tr:nth-child(even){background-color:rgba(230,84,84,.65)}
+
+	.md h3+ol,.md h3+ul{border-left-color:#5BA2FF}
+
+	.md h3+ol li:nth-child(odd),.md h3+ul li:nth-child(odd){background-color:rgba(231,161,93,.8)}
+
+	.md h4+ol,.md h4+ul{border-left-color:rgba(143,80,231,.9)}
+
+	.md h4+ol li:nth-child(odd),.md h4+ul li:nth-child(odd){background-color:rgba(143,80,231,.7)}
+
+	.md h5+ol,.md h5+ul{border-left-color:rgba(35,179,232,.8)}
+
+	.md h5+ol li:nth-child(odd),.md h5+ul li:nth-child(odd){background-color:rgba(35,179,232,.7)}
+
+	.md h6+ol,.md h6+ul{border-left-color:#e82323}
+
+	.md h6+ol li:nth-child(odd),.md h6+ul li:nth-child(odd){background-color:rgba(230,84,84,.65)}
+
+	.wiki-page-index .md h2+table tr:nth-child(even),.wiki-page-index .md h3+table thead{background-color:#fff}
+
+	.side .usertext .md h3+ol li:nth-child(even),.side .usertext .md h3+ul li:nth-child(even){background-color:#eee}
+
+	.md.wiki pre,.usertext-body pre{margin:10px 0;padding:10px}
+
+	.md.wiki pre,.usertext-body pre,li>code,p>code{
+		overflow:auto;
+		border:1px solid #ccc;
+		background-color:#fbf9f4;
+		color:#222!important;
+		font-size:11px
+	}
+	code{line-height:1.5em}
+	li>code,p>code{padding:0 3px;color:#222!important}
