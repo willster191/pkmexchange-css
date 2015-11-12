@@ -1,5 +1,4 @@
 
-
 *, *:before, *:after { -webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box;}
 
 body {
@@ -7,7 +6,7 @@ body {
 	background-color: #eeeeee;
 	min-width: 820px;
 }
-	
+
 	/* General Styles - Links / Buttons / Inputs */
 	a {
 		color: #4F8EF7;
@@ -100,8 +99,8 @@ body {
 				transition: all 0.15s ease;
 			}
 
-				#sr-header-area:hover .sr-bar a, 
-				#sr-header-area:hover #sr-more-link, 
+				#sr-header-area:hover .sr-bar a,
+				#sr-header-area:hover #sr-more-link,
 				#sr-header-area:hover .seperator,
 				#sr-header-area:hover .dropdown.srdrop .selected {color: rgba(255,255,255,1);}
 
@@ -259,7 +258,7 @@ body {
 				{display:none!important;}
 
 
-		
+
 
 
 	/* Sidebar */
@@ -464,7 +463,7 @@ body {
 
 					#search input[type=text]::-webkit-input-placeholder {color:#B3B3B3;}
 					#search input[type=text]:-moz-placeholder {color:#B3B3B3;}
-					#search input[type=text]::-moz-placeholder {color:#B3B3B3;} 
+					#search input[type=text]::-moz-placeholder {color:#B3B3B3;}
 					#search input[type=text]:-ms-input-placeholder {color:#B3B3B3;}
 
 					#search input[type=submit] {
@@ -531,7 +530,7 @@ body {
 			padding: 0px 16px;
 			transition: all 0.25s ease;
 			font-family: verdana, arial, sans-serif;
-		}	
+		}
 
 			.morelink:hover {
 				background-color: #5a72ee;
@@ -608,7 +607,7 @@ body {
 
 		.login-form-side button.btn {margin-right: -3px;}
 
-			
+
 		/* Redditname + Subscibers & Here right now */
 		.titlebox h1 {
 			color: #4d5763;
@@ -632,7 +631,7 @@ body {
 			.titlebox .users-online .number:before {content: "";}
 			.titlebox .users-online .number:after {content: " here";}
 			.titlelebox .word {display: none;}
-			.titlebox .users-online, .titlebox .number {cursor: text;}	
+			.titlebox .users-online, .titlebox .number {cursor: text;}
 
 
 		.titlebox .tagline {
@@ -650,7 +649,7 @@ body {
 
 			.titlebox .tagline a.flairselectbtn {
 				color: #4F8EF7;
-			}	
+			}
 			.titlebox .tagline a.flairselectbtn:after {content: " flair"}
 			.titlebox .tagline .flair:before {content: "";}
 
@@ -1193,13 +1192,13 @@ body {
 
 					.expando-button.selftext.collapsed 					{background-position: -32px -32px!important;}
 					.expando-button.selftext.collapsed:hover 			{background-position: -48px -32px!important;}
-		
+
 					.expando-button.selftext.expanded 					{background-position: -64px -32px!important;}
 					.expando-button.selftext.expanded:hover 			{background-position: -80px -32px!important;}
-		
+
 					.expando-button.video.collapsed 					{background-position: -96px -32px!important;}
 					.expando-button.video.collapsed:hover				{background-position: -12px -32px!important;}
-		
+
 					.expando-button.video.expanded 						{background-position: -64px -32px!important;}
 					.expando-button.video.expanded:hover 				{background-position: -80px -32px!important;}
 
@@ -1219,7 +1218,7 @@ body {
 					.expando-button.video-muted.collapsed:hover			{background-position: -224px -32px!important;}
 
 					.expando-button.video-muted.expanded				{background-position: -64px -32px!important;}
-					.expando-button.video-muted.expanded:hover			{background-position: -80px -32px!important;} 
+					.expando-button.video-muted.expanded:hover			{background-position: -80px -32px!important;}
 
 
 				/* Expando Text */
@@ -1267,7 +1266,7 @@ body {
 					}
 
 						.link .entry .tagline .userattrs a.moderator {background-color: #65B354;}
-						
+
 
 
 					.RESUserTagImage {
@@ -1294,9 +1293,9 @@ body {
 						font-family: Arial, sans-serif;
 						transition: all 0.15s ease;
 					}
-	
+
 						.link .entry .buttons li a:hover {color: #4F8EF7;text-decoration: none;}
-	
+
 						.nsfw-stamp acronym {
 							padding: 2px 3px;
 							background-color: transparent;
@@ -1306,7 +1305,7 @@ body {
 							opacity: 100;
 							cursor: help;
 						}
-	
+
 						.link .entry .buttons li a.comments {
 							color: #4F8EF7;
 							font-weight: bold !important;
@@ -1425,7 +1424,7 @@ body {
 					border-radius: 2px 2px 0px 0px;
 				}
 
-					.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {color: #65b354!important;}					
+					.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {color: #65b354!important;}
 					.thing.stickied .expando-button:hover {background-color: #65b354!important;border-color: #65b354!important;}
 					.tagline .stickied-tagline {color: #b3b3b3;cursor: help;}
 					.thing.stickied .domain {display: none;}
@@ -1456,14 +1455,14 @@ body {
 							width: inherit;
 						}
 
-					.organic-listing {  
-						background-color: white!important;  
-						padding: 0;  
-						position: relative;  
-						margin-bottom: 0px;  
-						border: none;  
-						border-radius: 2px 2px 0px 0px; 
-					} 
+					.organic-listing {
+						background-color: white!important;
+						padding: 0;
+						position: relative;
+						margin-bottom: 0px;
+						border: none;
+						border-radius: 2px 2px 0px 0px;
+					}
 
 						.organic-listing .help {
 							margin-bottom: 20px;
@@ -1559,14 +1558,14 @@ body {
 								color: #4F8EF7 !important;
 								cursor: default;
 							}
-	
+
 							.flairselector form .flairselection .flairremove {
 								padding: 4px 0px;
 								margin-bottom: 8px;
 								visibility: hidden;
 								display: block !important;
 							}
-	
+
 								.flairselector form .flairselection .flairremove a {
 									visibility: visible;
 									opacity: 100 !important;
@@ -1576,13 +1575,13 @@ body {
 								}
 
 									.flairselector form .flairselection .flairremove a:first-letter {text-transform: capitalize;}
-	
+
 									.flairselector form .flairselection .flairremove a:hover {text-decoration: underline !important;}
 
 					.flairselector .error {text-align: left;}
 						.flairselector .error:first-letter {text-transform: capitalize;}
 						.flairselector .error:after {
-							display: block; 
+							display: block;
 							color: #b3b3b3;
 							content: "Go to /r/.../about/flairs.";
 						}
@@ -1626,7 +1625,7 @@ body {
 
 					.res .entry {transition: all 0.15s ease;}
 
-					div.RES-keyNav-activeElement, 
+					div.RES-keyNav-activeElement,
 					div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
 						background-color: transparent !important;
 						padding-left: 8px !important;
@@ -1877,8 +1876,8 @@ body {
 			.comments-page .link .entry {border-bottom: none;padding-bottom: 15px;}
 
 		.commentarea {
-			
-		}	
+
+		}
 
 			.commentarea .panestack-title {
 				margin: 10px 0 0 22px;
@@ -2197,7 +2196,7 @@ body {
 			margin: 0 auto;
 		}
 
-			.submit-page #newlink.submit.content form .spacer+.spacer {margin: 0;} 
+			.submit-page #newlink.submit.content form .spacer+.spacer {margin: 0;}
 
 
 			.submit-page #newlink.submit.content ul.tabmenu.formtab {
@@ -2391,7 +2390,7 @@ body {
 		/* Wiki Page */
 		.wiki-page .wikititle {
 			background-color: #fff;
-			padding: 9px 16px 10px 16px; 
+			padding: 9px 16px 10px 16px;
 			border-radius: 2px;
 			box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
 			font-size: 16px;
@@ -2812,7 +2811,7 @@ body {
 						}
 
 					.toggleButton {
-						
+
 					}
 
 						.toggleButton .toggleOn, .toggleButton .toggleOff  {
@@ -2862,17 +2861,17 @@ body>.content {
 		  0%   {opacity:0;transform:translateY(48px);-webkit-transform:translateY(48px);}
 		  100% {opacity:1;transform:translateY(0px);-webkit-transform:translateY(0px);}
 		}
-	
+
 		@-moz-keyframes fadein {
 		  0%   {opacity:0;transform:translateY(48px);-webkit-transform:translateY(48px);}
 		  100% {opacity:1;transform:translateY(0px);-webkit-transform:translateY(0px);}
 		}
-	
+
 		@-o-keyframes fadein {
 		  0%   {opacity:0;transform:translateY(48px);-webkit-transform:translateY(48px);}
 		  100% {opacity:1;transform:translateY(0px);-webkit-transform:translateY(0px);}
 		}
-	
+
 		@keyframes fadein {
 		  0%   {opacity:0;transform:translateY(48px);-webkit-transform:translateY(48px);}
 		  100% {opacity:1;transform:translateY(0px);-webkit-transform:translateY(0px);}
@@ -2990,19 +2989,19 @@ body>.content {
 				  80%	{transform:scale(1.15);-webkit-transform:scale(1.15);}
 				  100% {transform:scale(1);-webkit-transform:scale(1);}
 				}
-			
+
 				@-moz-keyframes popin {
 				  0%   {transform:scale(0);-webkit-transform:scale(0);}
 				  80%	{transform:scale(1.15);-webkit-transform:scale(1.15);}
 				  100% {transform:scale(1);-webkit-transform:scale(1);}
 				}
-			
+
 				@-o-keyframes popin {
 				  0%   {transform:scale(0);-webkit-transform:scale(0);}
 				  80%	{transform:scale(1.15);-webkit-transform:scale(1.15);}
 				  100% {transform:scale(1);-webkit-transform:scale(1);}
 				}
-			
+
 				@keyframes popin {
 				  0%   {transform:scale(0);-webkit-transform:scale(0);}
 				  80%	{transform:scale(1.15);-webkit-transform:scale(1.15);}
@@ -3051,6 +3050,10 @@ body>.content {
 
 .flair-shiny::before, a[href$="-shiny"] {
 	background-image: url(%%shinymonssprites%%);
+}
+
+.flair-bw::before, a[href$="-bw"] {
+	background-image: url(%%monsspritebw%%);
 }
 
 a[href^="#pk-"], a[href^="#bs-"], a[href^="#ref-"] {
@@ -3221,7 +3224,7 @@ a[href$="#bs-sportball"] {
 }
 
 .flair-cubone::before, a[href^="#pk-cubone"]{
-	background-position: -662px -93px; 
+	background-position: -662px -93px;
 }
 
 .flair-cloyster::before, a[href^="#pk-cloyster"]{
@@ -3229,7 +3232,7 @@ a[href$="#bs-sportball"] {
 }
 
 .flair-shuckle::before, a[href^="#pk-shuckle"]{
-	background-position: -691px -211px; 
+	background-position: -691px -211px;
 }
 
 .flair-victini::before, a[href^="#pk-victini"]{
@@ -3700,20 +3703,20 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 	.md table thead,.wiki-page-index .md table tr { border-bottom:1px solid #ccc }
 	.md table th { text-align:center }
-	.md table thead { background-color:#f3f3f3 } 
+	.md table thead { background-color:#f3f3f3 }
 	.md table tbody tr:nth-child(odd){ background-color:#fff }
 	.md table tbody tr:nth-child(even){ background-color:#ccc }
 	.md table td,.md table th { padding:4px 8px;border-right:1px solid #ccc }
 
 	body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
-	
+
 	.md ol,.md ul {
 		margin:10px 0;
 		padding:6px;
 		background-color:transparent;
 		border-radius:2px
 	}
-	.md ol,.md ol li,.md ul,.md ul li { 
+	.md ol,.md ol li,.md ul,.md ul li {
 		-moz-border-radius:2px;
 		-webkit-border-radius:2px;
 		-o-border-radius:2px;
@@ -3724,13 +3727,19 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	.md ul{
 		list-style:disc inside
 	}
-	
+
 	.md ol{
 		list-style:none;counter-reset:inc 0
 	}
-	
+
 	.md ol li,.md ul li{
-		padding:4px 8px;border-radius:2px
+		padding:4px 8px;
+		border-radius:2px
+	}
+
+	.md > ol, .md > ul {
+		border-left: 2px solid #C0C0C0;
+		border-right: 2px solid #C0C0C0;
 	}
 
 	.md ol li ol,.md ul li ul { padding:0 }
@@ -3740,43 +3749,53 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 	.md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;color:#000}
 
+	.md h2+table{ border-color:rgba(172, 230, 213, 0.6)}
+
+	.md h2+table td,.md h2+table th{border-right-color:rgba(172, 230, 213, 0.6)}
+
+	.md h2+table thead,.md h2+table tr:nth-child(even){background-color:rgba(172, 230, 213, 0.6)}
+
 	.md h3+table{ border-color:#5BA2FF }
 
 	.md h3+table td,.md h3+table th{border-right-color:#5BA2FF}
 
 	.md h3+table thead,.md h3+table tr:nth-child(even){background-color:#CAE1FF}
 
-	.md h4+table{border-color:#7623e8}.md h4+table td,.md h4+table th{border-right-color:#7623e8}
+	.md h4+table{border-color:rgba(187, 147, 243, 1)}.md h4+table td,.md h4+table th{border-right-color:rgba(187, 147, 243, 1)}
 
-	.md h4+table thead,.md h4+table tr:nth-child(even){background-color:rgba(143,80,231,.7)}
+	.md h4+table thead,.md h4+table tr:nth-child(even){background-color:rgba(187, 147, 243, 0.7)}
 
-	.md h5+table{border-color:#3e23e8}
+	.md h5+table{border-color:rgba(239, 122, 122, 1)}
 
-	.md h5+table td,.md h5+table th{border-right-color:#3e23e8}
+	.md h5+table td,.md h5+table th{border-right-color:rgba(239, 122, 122, 1)}
 
-	.md h5+table thead,.md h5+table tr:nth-child(even){background-color:rgba(35,179,232,.7)}
+	.md h5+table thead,.md h5+table tr:nth-child(even){background-color:rgba(239, 122, 122, 0.51)}
 
-	.md h6+table{border-color:#e82323}
+	.md h6+table{border-color:rgba(255, 175, 54, 1)}
 
-	.md h6+table td,.md h6+table th{border-right-color:#e82323}
+	.md h6+table td,.md h6+table th{border-right-color:rgba(255, 175, 54, 1)}
 
-	.md h6+table thead,.md h6+table tr:nth-child(even){background-color:rgba(230,84,84,.65)}
+	.md h6+table thead,.md h6+table tr:nth-child(even){background-color:rgba(255, 175, 54, 0.6)}
 
-	.md h3+ol,.md h3+ul{border-left-color:#5BA2FF}
+	.md h2+ol,.md h2+ul{border-left-color: rgba(172, 230, 213, 0.6); border-right-color: rgba(172, 230, 213, 0.6);}
 
-	.md h3+ol li:nth-child(odd),.md h3+ul li:nth-child(odd){background-color:rgba(231,161,93,.8)}
+	.md h2+ol li:nth-child(odd),.md h2+ul li:nth-child(odd){background-color:rgba(172, 230, 213, 0.6)}
 
-	.md h4+ol,.md h4+ul{border-left-color:rgba(143,80,231,.9)}
+	.md h3+ol,.md h3+ul{border-left-color:#CAE1FF; border-right-color: #CAE1FF;}
 
-	.md h4+ol li:nth-child(odd),.md h4+ul li:nth-child(odd){background-color:rgba(143,80,231,.7)}
+	.md h3+ol li:nth-child(odd),.md h3+ul li:nth-child(odd){background-color:#CAE1FF}
 
-	.md h5+ol,.md h5+ul{border-left-color:rgba(35,179,232,.8)}
+	.md h4+ol,.md h4+ul{border-left-color:rgba(187, 147, 243, 0.7); border-right-color: rgba(187, 147, 243, 0.7);}
 
-	.md h5+ol li:nth-child(odd),.md h5+ul li:nth-child(odd){background-color:rgba(35,179,232,.7)}
+	.md h4+ol li:nth-child(odd),.md h4+ul li:nth-child(odd){background-color:rgba(187, 147, 243, 0.7)}
 
-	.md h6+ol,.md h6+ul{border-left-color:#e82323}
+	.md h5+ol,.md h5+ul{border-left-color:rgba(239, 122, 122, 0.51); border-right-color: rgba(239, 122, 122, 0.51)}
 
-	.md h6+ol li:nth-child(odd),.md h6+ul li:nth-child(odd){background-color:rgba(230,84,84,.65)}
+	.md h5+ol li:nth-child(odd),.md h5+ul li:nth-child(odd){background-color:rgba(239, 122, 122, 0.51)}
+
+	.md h6+ol,.md h6+ul{border-left-color:rgba(255, 175, 54, 0.6); border-right-color: rgba(255, 175, 54, 0.6);}
+
+	.md h6+ol li:nth-child(odd),.md h6+ul li:nth-child(odd){background-color:rgba(255, 175, 54, 0.6)}
 
 	.wiki-page-index .md h2+table tr:nth-child(even),.wiki-page-index .md h3+table thead{background-color:#fff}
 
@@ -3792,4 +3811,5 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 		font-size:11px
 	}
 	code{line-height:1.5em}
+
 	li>code,p>code{padding:0 3px;color:#222!important}
