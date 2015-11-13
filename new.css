@@ -154,17 +154,14 @@ body {
 		#header-img.default-header, #header-img {
 			z-index: 99;
 			width: 0px;
-			padding-left: 48px;
-			height: 48px;
-			background-image: url(%%spritesheet%%);
-			background-position: -208px -48px;
+			padding-left: 64px;
+			height: 75px;
+			background-image: url(%%alienred%%);
+			background-position: 5px 0px;
 			position: relative;
 			top: 0px;
 			margin: 0;
 		}
-
-			#header-img.default-header:hover, #header-img:hover {background-position: -208px -96px;}
-
 
 	 	#header .pagename {
 	 		font-size: 0;
@@ -177,7 +174,7 @@ body {
 	 			padding: 11px;
 	 			font-weight: bold;
 	 			position: relative;
-	 			top: 0px;
+	 			top: 13px;
 	 			font-family: arial;
 	 			margin: 0 4px;
 	 			vertical-align: top;
@@ -213,7 +210,7 @@ body {
 
 				#header .tabmenu li a {
 					display: inline-block;
-					margin: 0px 7px;
+					margin: 15px 7px;
 					padding: 16px 16px;
 					background-color: transparent;
 					border: 0px;
@@ -3813,3 +3810,44 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	code{line-height:1.5em}
 
 	li>code,p>code{padding:0 3px;color:#222!important}
+
+
+	.md [href$="#bphysical"] {
+		display: block;
+		background-image: url(%%bphysicalbtn%%);
+		background-position: 0px 0px;
+		width: 280px;
+		height: 80px;
+	}
+
+	.md [href$="#sphysical"] {
+		display: block;
+		background-image: url(%%sphysicalbtn%%);
+		background-position: 0px 0px;
+		width: 280px;
+		height: 80px;
+	}
+
+	.md [href$="#bvirtual"] {
+		display: block;
+		background-image: url(%%bvirtualbtn%%);
+		background-position: 0px 0px;
+		width: 280px;
+		height: 80px;
+	}
+
+	.md [href$="#svirtual"] {
+		display: block;
+		background-image: url(%%svirtualbtn%%);
+		background-position: 0px 0px;
+		width: 280px;
+		height: 80px;
+	}
+
+	.md [href$="#modpost"] {
+		display: block;
+		background-image: url(%%modpostbtn%%);
+		background-position: 0px 0px;
+		width: 280px;
+		height: 80px;
+	}
