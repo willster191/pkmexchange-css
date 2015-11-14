@@ -1027,21 +1027,19 @@ body {
 
 				/* Linkflairs */
 				.linkflairlabel {
+					background: none;
+					content: "";
 					padding: 1px 6px 1px 6px;
-					height: 18px;
+					width: 104px;
+					max-width: 104px;
+					height: 25px;
 					border-radius: 1px;
 					border: 0px solid;
-					color: #fff;
-					font-weight: bold;
-					font-style: normal;
-					font-variant: normal;
-					font-size: 13px;
-					font-family: Arial, sans-serif;
 					cursor: default;
 					vertical-align: middle;
 					position: relative;
-					top: -2px;
-					background-color: #4F8EF7;
+					background-image: url(%%linkflairs%%);
+					text-indent: -9999em;
 				}
 					.linkflair-physical .linkflairlabel {
 						background-color: #ea4848;
@@ -1051,61 +1049,34 @@ body {
 						.linkflair-physical .thumbnail.self {background: url(%%physical%%) 0px 0px;}
 
 					.linkflair-sphysical .linkflairlabel {
-						background-color: #ea4848;
-						color: #fff;
+						background-position: 0px 0px;
 					}
 
 						.linkflair-sphysical .thumbnail.self {background: url(%%sphysical%%) 0px 0px;}
 
 					.linkflair-bphysical .linkflairlabel {
-						background-color: #ffc0cb;
-						color: #fff;
+						background-position: 0px -25px;
 					}
 
 						.linkflair-bphysical .thumbnail.self {background: url(%%bphysical%%) 0px 0px;}
 
 					.linkflair-virtual .linkflairlabel {
-						background-color: #7596e2;
-						color: #fff;
+						background-position: 0px 0px;
 					}
 
 						.linkflair-virtual .thumbnail.self {background: url(%%virtual%%) 0px 0px;}
 
 					.linkflair-svirtual .linkflairlabel {
-						background-color: #7596e2;
-						color: #fff;
+						background-position: 0px -51px;
 					}
 
 						.linkflair-svirtual .thumbnail.self {background: url(%%svirtual%%) 0px 0px;}
 
 					.linkflair-bvirtual .linkflairlabel {
-						background-color: #88d6f7;
-						color: #fff;
+						background-position: 0px -78px;
 					}
 
 						.linkflair-bvirtual .thumbnail.self {background: url(%%bvirtual%%) 0px 0px;}
-
-					.linkflair-pc .linkflairlabel {
-						background-color: #516ae8;
-						color: #fff;
-					}
-
-						.linkflair-pc .thumbnail.self {background: url(%%spritesheet%%) -73px -140px;}
-
-					.linkflair-pkmnthanks .linkflairlabel {
-						background-color: #516ae8;
-						color: #fff;
-					}
-
-						.linkflair-pkmnthanks .thumbnail.self {background: url(%%spritesheet%%) -73px -140px;}
-
-					.linkflair-talk .linkflairlabel {
-						background-color: #516ae8;
-						color: #fff;
-					}
-
-						.linkflair-talk .thumbnail.self {background: url(%%spritesheet%%) -73px -140px;}
-
 
 					.linkflair-closed .linkflairlabel {
 						background-color: #516ae8;
@@ -1116,8 +1087,8 @@ body {
 
 
 					.linkflair-mod .linkflairlabel {
-							background-color: #65B354;
-							color: #fff;
+							text-align: left!important;
+							background-position: -3px 45px;
 					}
 
 						.linkflair-mod a {color: #65B354!important;}
@@ -3814,40 +3785,64 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 	.md [href$="#bphysical"] {
 		display: block;
-		background-image: url(%%bphysicalbtn%%);
-		background-position: 0px 0px;
-		width: 280px;
-		height: 80px;
+		background-image: url(%%linkflairs%%);
+		background-position: -3px -25px;
+		width: 100px;
+		height: 24px;
 	}
 
 	.md [href$="#sphysical"] {
 		display: block;
-		background-image: url(%%sphysicalbtn%%);
-		background-position: 0px 0px;
-		width: 280px;
-		height: 80px;
+		background-image: url(%%linkflairs%%);
+		background-position: -3px 0px;
+		width: 100px;
+		height: 24px;
 	}
 
 	.md [href$="#bvirtual"] {
 		display: block;
-		background-image: url(%%bvirtualbtn%%);
-		background-position: 0px 0px;
-		width: 280px;
-		height: 80px;
+		background-image: url(%%linkflairs%%);
+		background-position: -3px -78px;
+		width: 100px;
+		height: 24px;
 	}
 
 	.md [href$="#svirtual"] {
 		display: block;
-		background-image: url(%%svirtualbtn%%);
-		background-position: 0px 0px;
-		width: 280px;
-		height: 80px;
+		background-image: url(%%linkflairs%%);
+		background-position: -3px -51px;
+		width: 100px;
+		height: 24px;
 	}
 
 	.md [href$="#modpost"] {
 		display: block;
-		background-image: url(%%modpostbtn%%);
-		background-position: 0px 0px;
+		background-image: url(%%linkflairs%%);
+		background-position: -3px 45px;
+		width: 100px;
+		height: 24px;
+	}
+
+	.md [href$="#sdb-mods"] {
+		display: block;
+		background-image: url(%%sidebarbuttons%%);
 		width: 280px;
-		height: 80px;
+		height: 58px;
+		background-position: -2px 0px;
+	}
+
+	.md [href$="#sdb-wiki"] {
+		display: block;
+		background-image: url(%%sidebarbuttons%%);
+		width: 280px;
+		height: 58px;
+		background-position: -2px -60px;
+	}
+
+	.md [href$="#sdb-ref"] {
+		display: block;
+		background-image: url(%%sidebarbuttons%%);
+		width: 280px;
+		height: 58px;
+		background-position: -2px -120px;
 	}
