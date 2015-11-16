@@ -873,14 +873,14 @@ body {
 
 	/* Body Content - Frontpage */
 	body >.content {
-		margin: 284px 332px 0px 16px;
+		margin: 275px 332px 0px 16px;
 		padding: 0px;
 		border-radius: 2px;
 	}
 		body.listing-page >.content {box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);}
 
 		body:before {
-			height: 300px;
+			height: 280px;
 			top: 0px;
 			position: absolute;
 			width: 100%;
@@ -3672,11 +3672,15 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	.md table thead,.wiki-page-index .md table tr { border-bottom:1px solid #ccc }
 	.md table th { text-align:center }
 	.md table thead { background-color:#f3f3f3 }
-	.md table tbody tr:nth-child(odd){ background-color:#fff }
-	.md table tbody tr:nth-child(even){ background-color:#ccc }
+	.md table tbody tr:nth-child(odd){ background-color:#2E3135 }
+	.md table tbody tr:nth-child(even){ background-color:#ccc; color: #2E3135 }
 	.md table td,.md table th { padding:4px 8px;border-right:1px solid #ccc }
 
 	body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
+
+	.md p code {
+		background-color: #CCC;
+	}
 
 	.md ol,.md ul {
 		margin:10px 0;
@@ -3702,19 +3706,15 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 	.md ol li,.md ul li{
 		padding:4px 8px;
-		border-radius:2px
-	}
-
-	.md > ol, .md > ul {
-		border-left: 2px solid #C0C0C0;
-		border-right: 2px solid #C0C0C0;
+		border-radius:2px;
 	}
 
 	.md ol li ol,.md ul li ul { padding:0 }
 
-	.md ol li:nth-child(odd),.md ul li:nth-child(odd){background-color:#dedede}
-
-
+	.md ol li:nth-child(odd),.md ul li:nth-child(odd) {
+		background-color:#dedede;
+		color: #2E3135;
+	}
 	.md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;color:#000}
 
 	.md h2+table{ border-color:rgba(172, 230, 213, 0.6)}
@@ -3877,7 +3877,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 			.res-commentBoxes .comments-page .comment .comment .comment,
 			.res-commentBoxes .comments-page .comment .comment .comment .comment .comment,
 			.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment,
-			.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment 
+			.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment
 	    {background-color: #25282C !important;}
 
 	    /* Border Color */
