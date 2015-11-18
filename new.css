@@ -2138,7 +2138,7 @@ body {
 					right: 16px;
 					top: 380px;
 					padding: 16px;
-					width: 300px;
+					width: 310px;
 					background-color: #fff;
 					border-radius: 2px;
 					box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
@@ -3831,25 +3831,33 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	.md [href$="#sdb-mods"] {
 		display: block;
 		background-image: url(%%sidebarbuttons%%);
-		width: 280px;
-		height: 58px;
+		width: 285px;
+		height: 56px;
 		background-position: -2px 0px;
 	}
 
 	.md [href$="#sdb-wiki"] {
 		display: block;
 		background-image: url(%%sidebarbuttons%%);
-		width: 280px;
-		height: 58px;
+		width: 285px;
+		height: 56px;
 		background-position: -2px -60px;
 	}
 
 	.md [href$="#sdb-ref"] {
 		display: block;
 		background-image: url(%%sidebarbuttons%%);
-		width: 280px;
-		height: 58px;
+		width: 285px;
+		height: 56px;
 		background-position: -2px -120px;
+	}
+
+	.md [href$="#sdb-flair"] {
+		display: block;
+		background-image: url(%%sidebarbuttons%%);
+		width: 285px;
+		height: 56px;
+		background-position: -2px -180px;
 	}
 
 	/* --- Addon: Dark Theme --- */
@@ -3863,7 +3871,8 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	    .linefield, .btn, button, .drop-choices, .hover-bubble, .search-page .searchpane, .content.submit .info-notice,
 	    .submit-page #newlink.submit.content .tabmenu.formtab a, .flairselector:before, .flairselector, .comments-page .side .linkinfo,
 	    .wiki-page .pageactions, .wiki-page .wikititle, .wiki-page .wiki-page-content, .search-page .menuarea, .sitetable .nav-buttons
-	    {background-color: #2E3135;}
+	    {background-color: #2E3135 !important;}
+
 
 			.res-commentBoxes .comments-page .comment .comment,
 			.res-commentBoxes .comments-page .comment .comment .comment .comment,
