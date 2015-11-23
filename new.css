@@ -9,7 +9,7 @@ body {
 
 	/* General Styles - Links / Buttons / Inputs */
 	a {
-		color: #4F8EF7;
+		color: #31B0FF;
 		transition: color 0.15s ease;
 	}
 
@@ -38,7 +38,7 @@ body {
 			.pretty-form input[type=text]:active, .pretty-form textarea:active, .pretty-form input[type=password]:active, .pretty-form input[type=number]:active,
 			.login-form-side input[type=text]:active, .login-form-side input[type=password]:active {
 				outline: none!important;
-				border-color: #4F8EF7;
+				border-color: #31B0FF;
 				color: #4D5763;
 			}
 
@@ -254,10 +254,6 @@ body {
 				.listing-page .tabmenu li > a[href$="/gilded/"], .wiki-page .tabmenu li > a[href$="/gilded/"]
 				{display:none!important;}
 
-
-
-
-
 	/* Sidebar */
 	.side {
 		margin: 390px 16px 0px 0px;
@@ -409,9 +405,9 @@ body {
 		#search {
 			position: absolute;
 			right: 16px;
-			top: 284px;
+			top: 275px;
 			z-index: 1;
-			width: 300px;
+			width: 310px;
 		}
 
 			#search input[type=text] {
@@ -646,7 +642,7 @@ body {
 				}
 
 			.titlebox .tagline a.flairselectbtn {
-				color: #4F8EF7;
+				color: #31B0FF;
 			}
 			.titlebox .tagline a.flairselectbtn:after {content: " flair"}
 			.titlebox .tagline .flair:before {content: "";}
@@ -1042,13 +1038,6 @@ body {
 					background-image: url(%%linkflairs%%);
 					text-indent: -9999em;
 				}
-					.linkflair-physical .linkflairlabel {
-						background-color: #ea4848;
-						color: #fff;
-					}
-
-						.linkflair-physical .thumbnail.self {background: url(%%physical%%) 0px 0px;}
-
 					.linkflair-sphysical .linkflairlabel {
 						background-position: 0px 0px;
 					}
@@ -1059,29 +1048,17 @@ body {
 						background-position: 0px -25px;
 					}
 
-						.linkflair-bphysical .thumbnail.self {background: url(%%bphysical%%) 0px 0px;}
-
-					.linkflair-virtual .linkflairlabel {
-						background-position: 0px 0px;
-					}
-
-						.linkflair-virtual .thumbnail.self {background: url(%%virtual%%) 0px 0px;}
-
 					.linkflair-svirtual .linkflairlabel {
 						background-position: 0px -51px;
 					}
-
-						.linkflair-svirtual .thumbnail.self {background: url(%%svirtual%%) 0px 0px;}
 
 					.linkflair-bvirtual .linkflairlabel {
 						background-position: 0px -78px;
 					}
 
-						.linkflair-bvirtual .thumbnail.self {background: url(%%bvirtual%%) 0px 0px;}
 
 					.linkflair-closed .linkflairlabel {
-						background-color: #516ae8;
-						color: #fff;
+						background-position: 0px -50px;
 					}
 
 						.linkflair-closed .thumbnail.self {background: url(%%spritesheet%%) -73px -140px;}
@@ -1089,10 +1066,11 @@ body {
 
 					.linkflair-mod .linkflairlabel {
 							text-align: left!important;
-							background-position: -3px 45px;
+							background-position: -3px 55px;
 					}
 
-						.linkflair-mod a {color: #65B354!important;}
+						.linkflair-mod a {color: #B3B3B3!important;}
+						.linkflair-mod .md a { color: #31B0FF!important;}
 						.linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {background: url(%%modsymbol%%) no-repeat 0px 0px !important;}
 
 
@@ -1106,7 +1084,7 @@ body {
 					line-height: 1.33;
 				}
 
-					body .content .sitetable .link .title a:hover {color: #4F8EF7;}
+					body .content .sitetable .link .title a:hover {color: #31B0FF;}
 
 					.link .entry {
 						padding: 15px 32px 14px 0px;
@@ -1114,12 +1092,9 @@ body {
 						margin-left: 0;
 					}
 
-					/*Unvisited*/	.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {color:#4F8EF7;}
-					/*Visited  */	.content .thing .title:visited, .content .thing.visited .title {color: #7D5D8A;}
-					/*Clicking */	.thing .title.loggedin.click:visited, .thing .title.click:visited {color:#4F8EF7;}
-
-
-
+					/*Unvisited*/	.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {color:#31B0FF;}
+					/*Visited  */	.content .thing .title:visited, .content .thing.visited .title {color: #9973AD;}
+					/*Clicking */	.thing .title.loggedin.click:visited, .thing .title.click:visited {color:#31B0FF;}
 
 				/* Domain */
 				.link .domain {visibility: hidden;}
@@ -1133,7 +1108,7 @@ body {
 					}
 
 						.link .domain a:hover {
-							color: #4F8EF7;
+							color: #31B0FF;
 							text-decoration: none;
 						}
 
@@ -1155,8 +1130,8 @@ body {
 
 
 					.expando-button:hover {
-						background-color: #4F8EF7;
-						border-color: #4F8EF7;
+						background-color: #31B0FF;
+						border-color: #31B0FF;
 					}
 
 					.expando-button.selftext.collapsed 					{background-position: -32px -32px!important;}
@@ -1216,7 +1191,7 @@ body {
 
 					.link .entry .tagline:first-letter {text-transform: capitalize;}
 					.link .entry .tagline time {cursor: help;}
-					.link .entry .tagline a:hover {color: #4F8EF7;text-decoration: none;}
+					.link .entry .tagline a:hover {color: #31B0FF;text-decoration: none;}
 					.link .entry .tagline a.author {margin-right: inherit;}
 
 					.link .entry .tagline .userattrs {visibility: hidden;}
@@ -1263,7 +1238,7 @@ body {
 						transition: all 0.15s ease;
 					}
 
-						.link .entry .buttons li a:hover {color: #4F8EF7;text-decoration: none;}
+						.link .entry .buttons li a:hover {color: #31B0FF;text-decoration: none;}
 
 						.nsfw-stamp acronym {
 							padding: 2px 3px;
@@ -1276,7 +1251,7 @@ body {
 						}
 
 						.link .entry .buttons li a.comments {
-							color: #4F8EF7;
+							color: #31B0FF;
 							font-weight: bold !important;
 							opacity: 100 !important;
 							transition: all 0.25s ease-in-out !important;
@@ -1332,7 +1307,7 @@ body {
 							/*	.link .entry li .comments:hover .newComments {color: #fff !important;} */
 
 							/* Flair */
-							.link .entry .buttons li a.flairselectbtn {color: #4F8EF7;}
+							.link .entry .buttons li a.flairselectbtn {color: #31B0FF;}
 
 							/* RES L+C */
 							.link .entry .buttons li .redditSingleClick {
@@ -1393,8 +1368,8 @@ body {
 					border-radius: 2px 2px 0px 0px;
 				}
 
-					.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {color: #65b354!important;}
-					.thing.stickied .expando-button:hover {background-color: #65b354!important;border-color: #65b354!important;}
+					.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {color: #B3B3B3!important;}
+					.thing.stickied .expando-button:hover {background-color: #65b354!important;border-color: #B3B3B3!important;}
 					.tagline .stickied-tagline {color: #b3b3b3;cursor: help;}
 					.thing.stickied .domain {display: none;}
 
@@ -1473,7 +1448,7 @@ body {
 					.flairselector h2 {
 						margin-bottom: 4px;
 						background-color: transparent;
-						color: #4F8EF7;
+						color: #31B0FF;
 						text-align: left;
 						text-transform: capitalize;
 						font-weight: normal;
@@ -1494,7 +1469,7 @@ body {
 								padding: 0px;
 							}
 
-								.flairoptionpane ul li .linkflair:hover, .flairselector li:hover {background-color: #F5F8F9;border: 0px solid;}
+								.flairoptionpane ul li .linkflair:hover, .flairselector li:hover {background-color: #c2c2c2;border: 0px solid;}
 
 								.flairoptionpane ul li .linkflair span.linkflairlabel {
 									margin: 8px 0px;
@@ -1505,7 +1480,7 @@ body {
 								.flairoptionpane ul li .linkflair a.title {
 									font-size: 18px !important;
 									opacity: 100 !important;
-									color: #4F8EF7 !important;
+									color: #31B0FF !important;
 								}
 
 					.flairselector form {
@@ -1524,7 +1499,7 @@ body {
 							.flairselector form .flairselection .linkflair a.title {
 								font-size: 18px !important;
 								opacity: 100 !important;
-								color: #4F8EF7 !important;
+								color: #31B0FF !important;
 								cursor: default;
 							}
 
@@ -1538,7 +1513,7 @@ body {
 								.flairselector form .flairselection .flairremove a {
 									visibility: visible;
 									opacity: 100 !important;
-									color: #4F8EF7 !important;
+									color: #31B0FF !important;
 									margin-left: -4px;
 									text-transform: capitalize;
 								}
@@ -1577,13 +1552,11 @@ body {
 								font-size: 11px;
 							}
 
-
 				/* Unvotable Message */
 				.unvotable-message {
 					border: 0px solid;
 					color: #b3b3b3;
 				}
-
 					.unvotable-message:first-letter {text-transform: capitalize;}
 
 				/* RES Selection */
@@ -1598,7 +1571,7 @@ body {
 					div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
 						background-color: transparent !important;
 						padding-left: 8px !important;
-						border-left: 2px solid #4F8EF7;
+						border-left: 2px solid #31B0FF;
 					}
 
 						div.commentarea div.RES-keyNav-activeElement .md {
@@ -1630,7 +1603,7 @@ body {
 				}
 
 					.RESDialogSmall > h3 {
-						color: #4F8EF7;
+						color: #31B0FF;
 						background-color: #FFF;
 						border-bottom: 1px solid #EDEDED;
 						height: 36px;
@@ -1666,8 +1639,8 @@ body {
 
 						.toggleButton .toggleOn {
 							border-radius: 0px;
-							border: 1px solid #4F8EF7;
-							background-color: #4F8EF7;
+							border: 1px solid #31B0FF;
+							background-color: #31B0FF;
 							color: #fff;
 							text-transform: capitalize;
 						}
@@ -1736,7 +1709,7 @@ body {
 						.top-page .content .menuarea .drop-choices.lightdrop a.choice:hover {background-color: #F5F8F9;}
 
 						.top-page .content .menuarea .drop-choices.lightdrop a.choice.selected {
-							background-color: #4f8ef7;
+							background-color: #31B0FF;
 							color: #fff;
 						}
 
@@ -1748,13 +1721,13 @@ body {
 
 					.guider_content {}
 
-						.guider_content h1 {color: #4F8EF7;}
+						.guider_content h1 {color: #31B0FF;}
 
 						.guider_button {
 							font-size: 11px;
 							border: none;
 							background-image: none;
-							background-color: #4F8EF7;
+							background-color: #31B0FF;
 							transition: all 0.15s ease;
 						}
 
@@ -1878,7 +1851,7 @@ body {
 					color: #b3b3b3;
 				}
 
-					.commentarea .menuarea .dropdown.lightdrop .selected:hover {color: #4F8EF7;}
+					.commentarea .menuarea .dropdown.lightdrop .selected:hover {color: #31B0FF;}
 					.commentarea .menuarea .dropdown.lightdrop .selected:after {
 						content: "▼"
 					}
@@ -1896,7 +1869,7 @@ body {
 						}
 
 							.drop-choices a.choice:hover {
-								background-color: #4F8EF7;
+								background-color: #31B0FF;
 								color: #fff;
 							}
 
@@ -1905,7 +1878,7 @@ body {
 					font-weight: normal;
 				}
 
-					.commentarea .menuarea .toggle a:hover, .help-hoverable:hover {color: #4F8EF7;}
+					.commentarea .menuarea .toggle a:hover, .help-hoverable:hover {color: #31B0FF;}
 
 			.commentarea>.usertext {
 				background-color: #FAFAFA;
@@ -1933,7 +1906,7 @@ body {
 						width: 500px;
 					}
 
-						.usertext .bottom-area a.reddiquette {color: #4F8EF7;}
+						.usertext .bottom-area a.reddiquette {color: #31B0FF;}
 
 			.gold-accent.comment-visits-box {
 				margin: 0px 0px 12px 0px;
@@ -2006,7 +1979,7 @@ body {
 								.comment .expand:hover {
 									color: #fff;
 									text-decoration: none;
-									background-color: #4F8EF7;
+									background-color: #31B0FF;
 								}
 
 							.comment .author {
@@ -2016,7 +1989,7 @@ body {
 							}
 
 								.comment .author:hover {
-									color: #4f8ef7;
+									color: #31B0FF;
 									text-decoration: none;
 								}
 
@@ -2027,7 +2000,7 @@ body {
 
 								.tagline .submitter {
 									font-weight: bold;
-									color: #4f8ef7;
+									color: #31B0FF;
 								}
 
 
@@ -2035,14 +2008,14 @@ body {
 								.res .thing .tagline .author.submitter {
 									padding: 1px 4px;
 									border-radius: 1px;
-									background-color: #4F8EF7 !important;
+									background-color: #31B0FF !important;
 									box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 									transition: all 0.15s ease;
 								}
 
 									.res .thing .tagline .author.submitter:hover {
 										box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-										background-color: #4F8EF7 !important;
+										background-color: #31B0FF !important;
 									}
 
 							.comment .score {
@@ -2068,7 +2041,7 @@ body {
 								.comment .usertext .md p {margin-top: 0px;}
 
 									.md a {
-										color: #4F8EF7;
+										color: #31B0FF;
 									}
 
 										.md a:visited {
@@ -2112,12 +2085,12 @@ body {
 							}
 
 								.comment .flat-list li a:hover {
-									color: #4F8EF7;
+									color: #31B0FF;
 									text-decoration: none;
 								}
 
 								.comment .flat-list li a[onclick*="reply"] {
-									color: #4F8EF7;
+									color: #31B0FF;
 									font-weight: bold;
 									font-size: 11px;
 								}
@@ -2128,7 +2101,7 @@ body {
 
 
 
-							.deepthread a {color: #4F8EF7;}
+							.deepthread a {color: #31B0FF;}
 
 			/* Sidebar stuff */
 			.comments-page .side {margin-top: 312px;}
@@ -2387,8 +2360,8 @@ body {
 
 				.wiki-page .pageactions .wikiaction-current {
 					padding: 10px 16px 7px 16px;
-					border-bottom: 4px solid #4F8EF7;
-					color: #4F8EF7;
+					border-bottom: 4px solid #31B0FF;
+					color: #31B0FF;
 				}
 
 					.wiki-page .pageactions .wikiaction:hover, .wiki-page .pageactions .wikiaction-current:hover {background-color: rgba(0,0,0,0.05);}
@@ -2401,13 +2374,16 @@ body {
 			box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
 		}
 
-			.wiki-page .wiki-page-content .wiki>.toc>ul {
-				border: none;
+			.wiki-page .wiki-page-content .wiki>.toc > ul li:nth-child(2n+1){
+				border: 1px;
+				border-color: white;
+				background-color: rgb(101, 144,142)
 			}
 
 			.wiki-page .wiki-page-content .wiki.md {
 				color: #4D5763;
 			}
+
 				.wiki-page .wiki-page-content .wiki.md h2 {color: #4D5763;}
 
 				.wiki-page .wiki-page-content .wiki.md p {
@@ -2433,13 +2409,13 @@ body {
 		}
 
 			.linefield .title {
-				color: #4F8EF7;
+				color: #31B0FF;
 				text-transform: capitalize;
 			}
 
 				.linefield .title:first-letter, .linefield label:first-letter {text-transform: capitalize;}
 				.usertext .bottom-area a {color: #b3b3b3;}
-				.usertext .bottom-area a:hover {color: #4f8ef7;}
+				.usertext .bottom-area a:hover {color: #31B0FF;}
 
 		.pretty-form {padding-top: 24px;}
 		.fancy-settings h1, .create-promotion h1 { color: rgba(255,255,255,.8); /* padding-top: 24px;margin-bottom: -18px; This was breaking stuff */}
@@ -2462,7 +2438,7 @@ body {
 				}
 
 				.tabmenu li.selected a {
-					color: #4F8EF7;
+					color: #31B0FF;
 					background-color: transparent;
 					border: none;
 				}
@@ -2477,7 +2453,7 @@ body {
 			}
 
 				.tabpane-content .flairrow a.author {color: #b3b3b3;}
-				.tabpane-content .tagline a {color: #4F8EF7;}
+				.tabpane-content .tagline a {color: #31B0FF;}
 
 				.tabpane-content .thing .title {overflow: visible;}
 
@@ -2685,7 +2661,7 @@ body {
 
 			.res .RESshortcutside:hover, .res .RESDashboardToggle:hover {
 				background-color: transparent;
-				color: #4F8EF7;
+				color: #31B0FF;
 			}
 
 		.res #progressIndicator {
@@ -3586,7 +3562,6 @@ a[href$="#bs-sportball"] {
 	font-size: 12px;
 }
 
-
 .md [href$="#btnphysical"] {
 	margin: 4px 16px 4px 0px;
 	padding: 2px 18px;
@@ -3787,7 +3762,6 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 	li>code,p>code{padding:0 3px;color:#222!important}
 
-
 	.md [href$="#bphysical"] {
 		display: block;
 		background-image: url(%%linkflairs%%);
@@ -3823,7 +3797,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	.md [href$="#modpost"] {
 		display: block;
 		background-image: url(%%linkflairs%%);
-		background-position: -3px 45px;
+		background-position: -3px 55px;
 		width: 100px;
 		height: 24px;
 	}
@@ -3860,8 +3834,9 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 		background-position: -2px -180px;
 	}
 
-	/* --- Addon: Dark Theme --- */
-
+	.over18.linkflair .linkflairlabel{
+		background-position: 0px 30px;
+	}
 	    /* Background Color */
 	    body {background-color: #1C1E22;}
 
