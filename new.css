@@ -648,10 +648,14 @@ body {
 			.titlebox .tagline .flair:before {content: "";}
 
 
-		.titlebox form.toggle.flairtoggle, .leavemoderator, .titlebox .tagline a.author, .sidebox .subtitle {display: none;}
-		.titlebox form.toggle.sr_style_toggle {padding-bottom: 0px;display: block;}
-		.titlebox form.toggle.sr_style_toggle label {position: relative;top: -3px;}
-		.res form.toggle.sr_style_toggle {margin: -20px 0 18px 0;}
+		.titlebox form.toggle.flairtoggle {
+				margin: -15px 0px 20px 0px;
+				background-color: #2E3135;
+			}
+		.leavemoderator, .titlebox .tagline a.author, .sidebox .subtitle {display: none;}
+		.titlebox form.toggle.sr_style_toggle {padding-bottom: 0px;display: block; background-color: #2E3135}
+		.titlebox form.toggle.sr_style_toggle label {position: relative;top: -3px; background-color: #2E3135}
+		.res form.toggle.sr_style_toggle {margin: -20px 0 18px 0; background-color: #2E3135}
 
 		/* Subscribe Button */
 		.titlebox .fancy-toggle-button {position: relative;}
@@ -1042,8 +1046,6 @@ body {
 						background-position: 0px 0px;
 					}
 
-						.linkflair-sphysical .thumbnail.self {background: url(%%sphysical%%) 0px 0px;}
-
 					.linkflair-bphysical .linkflairlabel {
 						background-position: 0px -25px;
 					}
@@ -1061,9 +1063,6 @@ body {
 						background-position: 0px -50px;
 					}
 
-						.linkflair-closed .thumbnail.self {background: url(%%spritesheet%%) -73px -140px;}
-
-
 					.linkflair-mod .linkflairlabel {
 							text-align: left!important;
 							background-position: -3px 55px;
@@ -1071,6 +1070,7 @@ body {
 
 						.linkflair-mod a {color: #B3B3B3!important;}
 						.linkflair-mod .md a { color: #31B0FF!important;}
+						.thing.stickied .md a { color: #31B0FF!important;}
 						.linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {background: url(%%modsymbol%%) no-repeat 0px 0px !important;}
 
 
@@ -2045,7 +2045,7 @@ body {
 									}
 
 										.md a:visited {
-											color: #7D5D8A;
+											color: #9973AD;
 										}
 
 									.md pre {
@@ -2683,7 +2683,7 @@ body {
 			.res .NERPageMarker {
 				border-radius: 0px;
 				border: none;
-				background-color: #fff;
+				background-color: #2E3135;
 				padding: 16px 0px;
 				margin: 0px;
 			}
@@ -3150,8 +3150,6 @@ a[href$="#bs-sportball"] {
 	width: 28px;
 	height: 24px;
 }
-
-
 
 /* Pokemon flairs */
 
@@ -3676,7 +3674,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 		list-style:disc inside;
 	}
 
-	.md ul a, .md ol a{ color: #97E5FF; }
+	.md ul a, .md ol a { color: #4DD2FF; }
 
 	.md ul a:visited, .md ol a:visited { color: #fff; }
 
@@ -3692,7 +3690,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	.md ol li ol,.md ul li ul { padding:0 }
 
 	.md ol li:nth-child(odd),.md ul li:nth-child(odd) {
-		background-color:#dedede;
+		background-color:#5A5A5A;
 		color: #2E3135;
 	}
 	.md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;color:#000}
@@ -3848,6 +3846,9 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	    .wiki-page .pageactions, .wiki-page .wikititle, .wiki-page .wiki-page-content, .search-page .menuarea, .sitetable .nav-buttons
 	    {background-color: #2E3135 !important;}
 
+			.usertext.border .usertext-body {
+				background-color: #2E3135 !important;
+			}
 
 			.res-commentBoxes .comments-page .comment .comment,
 			.res-commentBoxes .comments-page .comment .comment .comment .comment,
