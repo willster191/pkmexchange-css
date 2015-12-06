@@ -647,11 +647,15 @@ body {
 			.titlebox .tagline a.flairselectbtn:after {content: " flair"}
 			.titlebox .tagline .flair:before {content: "";}
 
-
-		.titlebox form.toggle.flairtoggle {
+		 .res .titlebox form.toggle.flairtoggle {
 				margin: -15px 0px 20px 0px;
 				background-color: #2E3135;
 			}
+
+			.titlebox form.toggle.flairtoggle {
+				background-color: #2E3135;
+			}
+
 		.leavemoderator, .titlebox .tagline a.author, .sidebox .subtitle {display: none;}
 		.titlebox form.toggle.sr_style_toggle {padding-bottom: 0px;display: block; background-color: #2E3135}
 		.titlebox form.toggle.sr_style_toggle label {position: relative;top: -3px; background-color: #2E3135}
@@ -685,7 +689,7 @@ body {
 
 			.titlebox .fancy-toggle-button .add {
 				background-color: #516AE8;
-				background-position: -208px -144px;
+				background-position: -206px -145px;
 			}
 
 				.titlebox .fancy-toggle-button .add:hover {background-color: #5A72EE;}
@@ -2045,7 +2049,7 @@ body {
 									}
 
 										.md a:visited {
-											color: #9973AD;
+											color: #9973AD!important;
 										}
 
 									.md pre {
@@ -2104,7 +2108,7 @@ body {
 							.deepthread a {color: #31B0FF;}
 
 			/* Sidebar stuff */
-			.comments-page .side {margin-top: 312px;}
+			.comments-page .side {margin-top: 500px;}
 
 				.comments-page .side .linkinfo {
 					position: absolute;
@@ -2377,7 +2381,7 @@ body {
 			.wiki-page .wiki-page-content .wiki>.toc > ul li:nth-child(2n+1){
 				border: 1px;
 				border-color: white;
-				background-color: rgb(101, 144,142)
+				background-color: #5A5A5A;
 			}
 
 			.wiki-page .wiki-page-content .wiki.md {
@@ -2671,7 +2675,7 @@ body {
 			padding: 16px;
 			margin: 16px 0px 16px 0px;
 			color: #b3b3b3;
-			background-color: #fff;
+			background-color: #2E3135;
 			height: inherit;
 		}
 
@@ -3647,7 +3651,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	.md table th { text-align:center }
 	.md table thead { background-color:#929292 }
 	.md table tbody tr:nth-child(odd){ background-color:#2E3135 }
-	.md table tbody tr:nth-child(even){ background-color:#ccc; color: #2E3135 }
+	.md table tbody tr:nth-child(even){ background-color:#5A5A5A; }
 	.md table td,.md table th { padding:4px 8px;border-right:1px solid #ccc }
 
 	body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
@@ -3674,9 +3678,9 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 		list-style:disc inside;
 	}
 
-	.md ul a, .md ol a { color: #4DD2FF; }
+	/*.md ul a, .md ol a { color: #4DD2FF; }*/
 
-	.md ul a:visited, .md ol a:visited { color: #fff; }
+	/*.md ul a:visited, .md ol a:visited { color: #fff; }*/
 
 	.md ol{
 		list-style:none;counter-reset:inc 0
@@ -3691,7 +3695,6 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 	.md ol li:nth-child(odd),.md ul li:nth-child(odd) {
 		background-color:#5A5A5A;
-		color: #2E3135;
 	}
 	.md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;color:#000}
 
@@ -3705,11 +3708,11 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 	.md h3+table td,.md h3+table th{border-right-color:#5BA2FF}
 
-	.md h3+table thead,.md h3+table tr:nth-child(even){background-color:#3881E1}
+	.md h3+table thead,.md h3+table tr:nth-child(even){background-color:#355682}
 
 	.md h4+table{border-color:rgba(187, 147, 243, 1)}.md h4+table td,.md h4+table th{border-right-color:rgba(187, 147, 243, 1)}
 
-	.md h4+table thead,.md h4+table tr:nth-child(even){background-color:rgba(187, 147, 243, 0.7)}
+	.md h4+table thead,.md h4+table tr:nth-child(even){background-color:#574475}
 
 	.md h5+table{border-color:rgba(239, 122, 122, 1)}
 
@@ -3729,11 +3732,11 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 	.md h3+ol,.md h3+ul{border-left-color:#CAE1FF; border-right-color: #CAE1FF;}
 
-	.md h3+ol li:nth-child(odd),.md h3+ul li:nth-child(odd){background-color:#CAE1FF}
+	.md h3+ol li:nth-child(odd),.md h3+ul li:nth-child(odd){background-color:#355682}
 
 	.md h4+ol,.md h4+ul{border-left-color:rgba(187, 147, 243, 0.7); border-right-color: rgba(187, 147, 243, 0.7);}
 
-	.md h4+ol li:nth-child(odd),.md h4+ul li:nth-child(odd){background-color:rgba(187, 147, 243, 0.7)}
+	.md h4+ol li:nth-child(odd),.md h4+ul li:nth-child(odd){background-color:#574475}
 
 	.md h5+ol,.md h5+ul{border-left-color:rgba(239, 122, 122, 0.51); border-right-color: rgba(239, 122, 122, 0.51)}
 
@@ -3830,6 +3833,61 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 		width: 285px;
 		height: 56px;
 		background-position: -2px -180px;
+	}
+
+	.wiki-page-content a[href*="#wiki-"] {
+		display: block;
+		background-image: url(%%wikibuttons%%);
+		width: 280px;
+		height: 80px;
+	}
+
+	.wiki-page-content a[href$="#wiki-paypal"] {
+		background-position: 0px 0px;
+	}
+
+	.wiki-page-content a[href$="#wiki-proof"] {
+		background-position: 0px -82px;
+	}
+
+	.wiki-page-content a[href$="#wiki-quick"] {
+		background-position: 0px -164px;
+	}
+
+	.wiki-page-content a[href$="#wiki-ref"] {
+		background-position: 0px -246px;
+	}
+
+	.wiki-page-content a[href$="#wiki-rules"] {
+		background-position: 0px -328px;
+	}
+
+	.wiki-page-content a[href$="#wiki-sguide"] {
+		background-position: 0px -409px;
+	}
+
+	.wiki-page-content a[href$="#wiki-ban"] {
+		background-position: 0px -492px;
+	}
+
+	.wiki-page-content a[href$="#wiki-events"] {
+		background-position: 0px -574px;
+	}
+
+	.wiki-page-content a[href$="#wiki-faq"] {
+		background-position: 0px -657px;
+	}
+
+	.wiki-page-content a[href$="#wiki-flair"] {
+		background-position: 0px -738px;
+	}
+
+	.wiki-page-content a[href$="#wiki-format"] {
+		background-position: 0px -823px;
+	}
+
+	.wiki-page-content a[href$="#wiki-ascam"] {
+		background-position: 0px -907px;
 	}
 
 	.over18.linkflair .linkflairlabel{
