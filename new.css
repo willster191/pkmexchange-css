@@ -894,7 +894,7 @@ body {
 			background-color: #3A3D4D;
 			background-image: url(%%headerimg%%);
 			background-repeat: no-repeat;
-			background-position: 80% 20%;
+			background-position: 0% 100%;
 			content: "";
 			text-indent: -9999px;
 			z-index: -1;
@@ -1062,14 +1062,17 @@ body {
 						background-position: 0px -78px;
 					}
 
-
-					.linkflair-closed .linkflairlabel {
-						background-position: 0px -50px;
-					}
-
 					.linkflair-mod .linkflairlabel {
 							text-align: left!important;
-							background-position: -3px 55px;
+							background-position: -3px -105px;
+					}
+
+					.linkflair-closed .linkflairlabel {
+						background-position: 0px -131px;
+					}
+
+					.linkflair-hacked .linkflairlabel {
+						background-position: 0px -158px;
 					}
 
 						.linkflair-mod a {color: #B3B3B3!important;}
@@ -2997,6 +3000,17 @@ body>.content {
 	vertical-align: middle;
 }
 
+.flair-banned::after {
+    background: 0 0;
+    margin: 0 0 3px 5px;
+    width: inherit;
+    height: inherit;
+    content: " Banned User";
+    color: red;
+    font-weight: 700;
+}
+
+
 .flair-shiny::before, a[href$="-shiny"] {
 	background-image: url(%%shinymonssprites%%);
 }
@@ -3472,7 +3486,8 @@ a[href$="#bs-sportball"] {
 }
 
 .flair-latios::before, a[href^="#pk-latios"] {
-	background-position: -740px -393px;
+	background-position: -729px -872px;
+	width: 36px;
 }
 
 .flair-pikachupopstar::before, a[href^="#pk-pikachupopstar"] {
@@ -3502,6 +3517,18 @@ a[href$="#bs-sportball"] {
 
 .flair-pikachuphd::before, a[href^="#pk-pikachuphd"] {
 	background-position: -172px -871px;
+}
+
+.flair-marowak::before, a[href^="#pk-marowak"] {
+	background-position: -692px -90px;
+}
+
+.flair-umbreon::before, a[href^="#pk-umbreon"] {
+	background-position: -91px -213px;
+}
+
+.flair-ninetails::before, a[href^="#pk-ninetails"] {
+	background-position: -480px -32px;
 }
 
 @-webkit-keyframes megabilly{
@@ -3696,7 +3723,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	.md ol li:nth-child(odd),.md ul li:nth-child(odd) {
 		background-color:#5A5A5A;
 	}
-	.md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;color:#000}
+	.md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;color:#ccc}
 
 	.md h2+table{ border-color:rgba(172, 230, 213, 0.6)}
 
@@ -3790,7 +3817,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	.md [href$="#svirtual"] {
 		display: block;
 		background-image: url(%%linkflairs%%);
-		background-position: -3px -51px;
+		background-position: -3px -53px;
 		width: 100px;
 		height: 24px;
 	}
@@ -3798,7 +3825,15 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	.md [href$="#modpost"] {
 		display: block;
 		background-image: url(%%linkflairs%%);
-		background-position: -3px 55px;
+		background-position: -3px -105px;
+		width: 100px;
+		height: 24px;
+	}
+
+	.md [href$="#hacked"] {
+		display: block;
+		background-image: url(%%linkflairs%%);
+		background-position: -3px -158px;
 		width: 100px;
 		height: 24px;
 	}
@@ -3891,7 +3926,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	}
 
 	.over18.linkflair .linkflairlabel{
-		background-position: 0px 30px;
+		background-position: 0px -131px;
 	}
 	    /* Background Color */
 	    body {background-color: #1C1E22;}
@@ -3903,6 +3938,8 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	    .submit-page #newlink.submit.content .tabmenu.formtab a, .flairselector:before, .flairselector, .comments-page .side .linkinfo,
 	    .wiki-page .pageactions, .wiki-page .wikititle, .wiki-page .wiki-page-content, .search-page .menuarea, .sitetable .nav-buttons
 	    {background-color: #2E3135 !important;}
+
+			.link .usertext .md { overflow: auto; }
 
 			.usertext.border .usertext-body {
 				background-color: #2E3135 !important;
@@ -3968,6 +4005,12 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	    .search-page input[type="text"] {color: #fff !important;}
 	    .new-comment .usertext-body {background-color: rgba(229, 239, 255, 0.1); border: 0px solid;}
 
+			.md blockquote {
+				color: #A4A4A4;
+			}
 
+			a#add-user-tag, a.user-history-button.tb-bracket-button, a.add-domain-tag.tb-bracket-button {
+				background-color: #2E3135 !important;
+			}
 
 	/* --- End Addon --- */
