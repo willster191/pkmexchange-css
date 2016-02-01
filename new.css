@@ -197,7 +197,7 @@ body {
 		/* Tabmenu (hot/new/top) */
 		#header-bottom-left {
 			position: absolute;
-			top: 215px;
+			top: 155px;
 			left: 16px;
 		}
 
@@ -211,7 +211,7 @@ body {
 				#header .tabmenu li a {
 					display: inline-block;
 					margin: 15px 7px;
-					padding: 16px 16px;
+					padding: 6px;
 					background-color: transparent;
 					border: 0px;
 					border-radius: 0px;
@@ -256,7 +256,7 @@ body {
 
 	/* Sidebar */
 	.side {
-		margin: 390px 16px 0px 0px;
+		margin: 310px 16px 0px 0px;
 		padding: 6px 16px;
 		background-color: #fff;
 		border-radius: 2px;
@@ -267,7 +267,7 @@ body {
 		/* Objects from top to bottom */
 		#header-bottom-right {
 			position: absolute;
-			top:0px;
+			top:184px;
 			right: 0px;
 			width: auto;
 			max-width: 300px;
@@ -405,7 +405,7 @@ body {
 		#search {
 			position: absolute;
 			right: 16px;
-			top: 275px;
+			top: 220px;
 			z-index: 1;
 			width: 310px;
 		}
@@ -508,7 +508,7 @@ body {
 		/* Submit Button */
 		.morelink {
 			position: absolute;
-			top: 340px;
+			top: 265px;
 			box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
 			background-color: #516ae8;
 			background-image: url(%%spritesheet%%) !important;
@@ -878,14 +878,14 @@ body {
 
 	/* Body Content - Frontpage */
 	body >.content {
-		margin: 275px 340px 0px 16px;
+		margin: 220px 340px 0px 16px;
 		padding: 0px;
 		border-radius: 2px;
 	}
 		body.listing-page >.content {box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);}
 
 		body:before {
-			height: 280px;
+			height: 210px;
 			top: 0px;
 			position: absolute;
 			width: 100%;
@@ -894,11 +894,9 @@ body {
 			background-color: #3A3D4D;
 			background-image: url(%%headerimg%%);
 			background-repeat: no-repeat;
+			background-size: contain;
 			background-position: 0% 100%;
 			content: "";
-			text-indent: -9999px;
-			z-index: -1;
-
 		}
 
 			@media only screen and (min-width : 1921px) {
@@ -1073,6 +1071,10 @@ body {
 
 					.linkflair-hacked .linkflairlabel {
 						background-position: 0px -158px;
+					}
+
+					.linkflair-giveaway .linkflairlabel {
+						background-position: 0px -184px;
 					}
 
 						.linkflair-mod a {color: #B3B3B3!important;}
@@ -2111,12 +2113,12 @@ body {
 							.deepthread a {color: #31B0FF;}
 
 			/* Sidebar stuff */
-			.comments-page .side {margin-top: 500px;}
+			.comments-page .side {margin-top: 430px;}
 
 				.comments-page .side .linkinfo {
 					position: absolute;
 					right: 16px;
-					top: 380px;
+					top: 310px;
 					padding: 16px;
 					width: 310px;
 					background-color: #fff;
@@ -2132,7 +2134,7 @@ body {
 					.comments-page .side .linkinfo .score {color: #4D5763;}
 					.linkinfo .shortlink input {border: 1px solid #E5E5E5;}
 
-				.res.comments-page .side {margin-top: 500px;}
+				.res.comments-page .side {margin-top: 430px;}
 
 
 		/* Submission Page */
@@ -2582,7 +2584,7 @@ body {
 		.pinHeader-header #header {top: 0px;background-image: url(%%headerimg%%);height: 84px;box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);}
 
 		.res #header-bottom-right {
-			top: 1px;
+			top: 184px;
 			border-radius: 0px;
 			height: 18px;
 			padding: 0px 8px 0px 0px;
@@ -2794,6 +2796,8 @@ body {
 					border-radius: 1px;
 					box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
 				}
+
+
 
 
 /* Experimental fadein CSS */
@@ -3531,6 +3535,16 @@ a[href$="#bs-sportball"] {
 	background-position: -480px -32px;
 }
 
+.flair-primalkyogre::before, a[href^="#pk-primalkyogre"] {
+	background-position: -651px -843px;
+	width: 32px;
+}
+
+.flair-venomoth::before, a[href^="#pk-venomoth"] {
+	background-position: -811px -32px;
+}
+
+
 @-webkit-keyframes megabilly{
 	29% { background-position: 0px -35px}
 	30% { background-position: 0px 0px }
@@ -3838,6 +3852,14 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 		height: 24px;
 	}
 
+	.md [href$="#giveaway"] {
+		display: block;
+		background-image: url(%%linkflairs%%);
+		background-position: -3px -184px;
+		width: 100px;
+		height: 24px;
+	}
+
 	.md [href$="#sdb-mods"] {
 		display: block;
 		background-image: url(%%sidebarbuttons%%);
@@ -4013,4 +4035,23 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 				background-color: #2E3135 !important;
 			}
 
+			.res .RES-keyNav-activeElement, .res .RES-keyNav-activeElement .md-container {
+				 background: rgba(0,0,0,0) !important
+			}
+
+			.stickied.link {
+				border: 3px solid #9fa1ae !important;
+				box-shadow: 0 0 0 1px #000 !important;
+				color:
+			}
+
+			.link {
+				border-radius: 9px !important;
+				padding: 0px 10px 0px !important;
+				margin-bottom: 5px !important;
+			}
+
+			.over18.link {
+				background: none!important;
+			}
 	/* --- End Addon --- */
