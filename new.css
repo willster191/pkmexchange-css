@@ -2691,7 +2691,7 @@ body {
 			.res .NERPageMarker {
 				border-radius: 0px;
 				border: none;
-				background-color: #2E3135;
+				background-color: transparent;
 				padding: 16px 0px;
 				margin: 0px;
 			}
