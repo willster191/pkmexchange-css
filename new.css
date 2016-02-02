@@ -1105,7 +1105,7 @@ body {
 					/*Clicking */	.thing .title.loggedin.click:visited, .thing .title.click:visited {color:#31B0FF;}
 
 				/* Domain */
-				.link .domain {visibility: hidden;}
+				.link .domain {display: none;}
 
 					.link .domain a {
 						visibility: visible;
@@ -1120,7 +1120,7 @@ body {
 							text-decoration: none;
 						}
 
-				.approval-checkmark {cursor: default;}
+				.approval-checkmark {cursor: default; display:none}
 
 				/* Expando Button */
 				.expando-button, .expando-button.image, .expando-button.video-muted {
@@ -4050,7 +4050,10 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 				margin-bottom: 5px !important;
 			}
 
-			.over18.link {
-				background: none!important;
-			}
+			.over18.link { background: none!important;}
+
+			.link .entry .buttons li + li { display: none }
+
+			.link:hover .entry .buttons li + li { display: inline!important;}
+
 	/* --- End Addon --- */
