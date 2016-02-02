@@ -211,12 +211,11 @@ body {
 				#header .tabmenu li a {
 					display: inline-block;
 					margin: 15px 7px;
-					padding: 6px;
+					padding: 3px;
 					background-color: transparent;
 					border: 0px;
 					border-radius: 0px;
 					color: rgba(255,255,255,0.6);
-					text-transform: uppercase;
 					font-weight: normal;
 					font-size: 14px;
 					font-family: Arial, sans-serif;
@@ -4040,9 +4039,9 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 			}
 
 			.stickied.link {
-				border: 3px solid #9fa1ae !important;
-				box-shadow: 0 0 0 1px #000 !important;
-				color:
+				border: 3px solid #2E6ABC !important;
+				box-shadow: 0 0 0 1px #339BA5 !important;
+				background-color: #1B375C !important
 			}
 
 			.link {
