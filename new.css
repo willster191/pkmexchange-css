@@ -197,7 +197,7 @@ body {
 		/* Tabmenu (hot/new/top) */
 		#header-bottom-left {
 			position: absolute;
-			top: 155px;
+			top: 145px;
 			left: 16px;
 		}
 
@@ -266,7 +266,7 @@ body {
 		/* Objects from top to bottom */
 		#header-bottom-right {
 			position: absolute;
-			top:184px;
+			top:174px;
 			right: 0px;
 			width: auto;
 			max-width: 300px;
@@ -884,7 +884,7 @@ body {
 		body.listing-page >.content {box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);}
 
 		body:before {
-			height: 210px;
+			height: 200px;
 			top: 0px;
 			position: absolute;
 			width: 100%;
@@ -893,7 +893,7 @@ body {
 			background-color: #3A3D4D;
 			background-image: url(%%headerimg%%);
 			background-repeat: no-repeat;
-			background-size: contain;
+			background-size: cover;
 			background-position: 0% 100%;
 			content: "";
 		}
@@ -2137,7 +2137,7 @@ body {
 
 
 		/* Submission Page */
-		.submit-page .content {margin: 96px auto;}
+		.submit-page .content {margin: 218px auto;}
 
 		.submit-page .side, .submit-page .content h1, #suggested-reddits {display: none;}
 
@@ -2239,7 +2239,7 @@ body {
 				}
 
 		.submit-page #header-bottom-left {
-			top: 36px;
+			top: 140px;
 			left: 16px;
 		}
 
@@ -2290,8 +2290,8 @@ body {
 
 
 			.search-summary {display: none;}
-			.search-page .morelink {top: 96px;}
-			.search-page .side {margin-top: 148px;}
+			.search-page .morelink {top: 210px;}
+			.search-page .side {margin-top: 280px;}
 
 
 
@@ -2583,7 +2583,7 @@ body {
 		.pinHeader-header #header {top: 0px;background-image: url(%%headerimg%%);height: 84px;box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);}
 
 		.res #header-bottom-right {
-			top: 184px;
+			top: 174px;
 			border-radius: 0px;
 			height: 18px;
 			padding: 0px 8px 0px 0px;
@@ -4055,5 +4055,9 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 			.link .entry .buttons li + li { display: none }
 
 			.link:hover .entry .buttons li + li { display: inline!important;}
+
+			/*.link:hover {
+				border: 1px solid #FFF !important;
+			}*/
 
 	/* --- End Addon --- */
