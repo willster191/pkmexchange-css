@@ -907,8 +907,10 @@ body {
 			background-color: #3A3D4D;
 			background-image: url(%%headerimg2%%);
 			background-repeat: no-repeat;
-			background-size: contain;
-			background-position: 0% 100%;
+			background-position: 0% 0%;
+
+			background-size: cover;
+
 			content: "";
 		}
 			@media only screen and (min-width : 1921px) {
