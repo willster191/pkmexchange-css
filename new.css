@@ -258,7 +258,7 @@ body {
 		margin: 310px 16px 0px 0px;
 		padding: 6px 16px;
 		background-color: #fff;
-		border-radius: 2px;
+		border-radius: 9px;
 		box-shadow: 0px 1px 5px rgba(0,0,0,0.16);
 		width: 310px;
 	}
@@ -516,7 +516,7 @@ body {
 			right: 16px;
 			width: 310px;
 			height: 36px;
-			border-radius: 2px;
+			border-radius: 9px;
 			line-height: 36px;
 			border: none;
 			text-align: left;
@@ -897,7 +897,20 @@ body {
 			background-position: 0% 100%;
 			content: "";
 		}
-
+		[lang="ch"] body:before {
+			height: 200px;
+			top: 0px;
+			position: absolute;
+			width: 100%;
+			left: 0px;
+			right: 0px;
+			background-color: #3A3D4D;
+			background-image: url(%%headerimg2%%);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: 0% 100%;
+			content: "";
+		}
 			@media only screen and (min-width : 1921px) {
 				body:before {background-size: cover;}
 			}
@@ -1025,7 +1038,6 @@ body {
 
 					.thumbnail.self 	{	background: url(%%spritesheet%%) -73px -80px;}
 					.thumbnail.default 	{	background: url(%%spritesheet%%) -143px -80px;}
-					.thumbnail.nsfw 	{	background: url(%%exchangeclosed%%) 0px 0px;}
 
 				/* Linkflairs */
 				.linkflairlabel {
@@ -1079,7 +1091,6 @@ body {
 						.linkflair-mod a {color: #B3B3B3!important;}
 						.linkflair-mod .md a { color: #31B0FF!important;}
 						.thing.stickied .md a { color: #31B0FF!important;}
-						.linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {background: url(%%modsymbol%%) no-repeat 0px 0px !important;}
 
 
 				/* Submission Title */
@@ -1095,7 +1106,7 @@ body {
 					body .content .sitetable .link .title a:hover {color: #31B0FF;}
 
 					.link .entry {
-						padding: 15px 32px 14px 0px;
+						padding: 10px 32px 10px 0px;
 						border-bottom: 1px solid #f2f2f2;
 						margin-left: 0;
 					}
@@ -3581,11 +3592,11 @@ a[href$="#bs-sportball"] {
 	border-radius: 2px;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.24);
 	color: #FFF !important;
-	text-transform: uppercase;
 	font-weight: bold;
 	transition: all 0.25s ease 0s;
 	height: 32px;
 	font-size: 12px;
+	border-radius: 3px!important;
 }
 
 
@@ -4026,7 +4037,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 	    .search-page input[type="text"] {color: #fff !important;}
 	    .new-comment .usertext-body {background-color: rgba(229, 239, 255, 0.1); border: 0px solid;}
 
-			.md blockquote {
+			.md blockquote, .subreddit-rules-page .md blockquote {
 				color: #A4A4A4;
 			}
 
@@ -4056,8 +4067,23 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 			.link:hover .entry .buttons li + li { display: inline!important;}
 
-			/*.link:hover {
-				border: 1px solid #FFF !important;
-			}*/
+		.subreddit-rules-page {
+			max-width: 900px!important;
+			background-color: #25282C;
+			margin: 215px 16px 0 0 !important;
+		}
+
+		.subreddit-rules-page .md-container .md .subreddit-rule-title {
+			color: #d2d2d2;
+		}
+		.subreddit-rules-page .md-container .md .subreddit-rule-description {
+			color: #d2d2d2;
+		}
+		.subreddit-rule-item:hover{
+			background-color: transparent!important;
+		}
+		.subreddit-rules-page > header p {
+			color: #686E7B;
+		}
 
 	/* --- End Addon --- */
