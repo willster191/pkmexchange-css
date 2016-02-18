@@ -908,9 +908,7 @@ body {
 			background-image: url(%%headerimg2%%);
 			background-repeat: no-repeat;
 			background-position: 0% 0%;
-
 			background-size: cover;
-
 			content: "";
 		}
 			@media only screen and (min-width : 1921px) {
@@ -2221,7 +2219,7 @@ body {
 
 				.submit-page .infobar:before {
 					font-size: 14px;
-					content: "Please submit insightful content that allows for discussion!";
+					content: "Remember to tag your post and link your reference!";
 					display: inline-block;
 				}
 
@@ -4087,5 +4085,15 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 		.subreddit-rules-page > header p {
 			color: #686E7B;
 		}
+
+		.side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4 {
+			background-color: #424242!important;
+			text-align: center!important;
+		}
+
+		.wiki-page .wiki-page-content .wiki > .toc > ul {
+			background-color : #3b3b3b!important;
+		}
+
 
 	/* --- End Addon --- */
