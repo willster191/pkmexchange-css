@@ -1041,50 +1041,163 @@ body {
 
 				/* Linkflairs */
 				.linkflairlabel {
-					background: none;
-					content: "";
-					padding: 1px 6px 1px 6px;
-					width: 104px;
-					max-width: 104px;
-					height: 25px;
-					border-radius: 1px;
-					border: 0px solid;
+					padding: 1px 6px;height: 17px;
+					border-radius: 2px;
+					border: 0 solid;
+					color: #fff;
+					font-weight: 700;
+					font-style	: normal;
+					font-variant: normal;
+					font-size: 13px;
 					cursor: default;
 					vertical-align: middle;
 					position: relative;
-					background-image: url(%%linkflairs%%);
-					text-indent: -9999em;
+					top: -2px;
+					background-color: #4F8EF7;
 				}
+
+
 					.linkflair-sphysical .linkflairlabel {
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px 0px;
+
 					}
 
 					.linkflair-bphysical .linkflairlabel {
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -25px;
+
 					}
 
 					.linkflair-svirtual .linkflairlabel {
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -51px;
+
 					}
 
 					.linkflair-bvirtual .linkflairlabel {
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -78px;
+
 					}
 
 					.linkflair-mod .linkflairlabel {
 							text-align: left!important;
+							background: none;
+							content: "";
+							padding: 1px 6px 1px 6px;
+							width: 104px;
+							max-width: 104px;
+							height: 25px;
+							border-radius: 1px;
+							border: 0px solid;
+							cursor: default;
+							vertical-align: middle;
+							position: relative;
+							background-image: url(%%linkflairs%%);
+							text-indent: -9999em;
 							background-position: -3px -105px;
 					}
 
 					.linkflair-closed .linkflairlabel {
+						text-align: left!important;
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -131px;
 					}
 
 					.linkflair-hacked .linkflairlabel {
+						text-align: left!important;
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -158px;
 					}
 
 					.linkflair-giveaway .linkflairlabel {
+						text-align: left!important;
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -184px;
 					}
 
