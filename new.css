@@ -897,22 +897,11 @@ body {
 			background-position: 0% 100%;
 			content: "";
 		}
-		[lang="ch"] body:before {
-			height: 200px;
-			top: 0px;
-			position: absolute;
-			width: 100%;
-			left: 0px;
-			right: 0px;
-			background-color: #3A3D4D;
-			background-image: url(%%headerimg2%%);
-			background-repeat: no-repeat;
-			background-position: 0% 0%;
+		[lang="ev"] body:before { background-image: url(%%headerimg1%%); }
+		[lang="ch"] body:before { background-image: url(%%headerimg2%%); }
+		[lang="lg"] body:before { background-image: url(%%headerimg3%%); }
+		[lang="st"] body:before { background-image: url(%%headerimg4%%); }
 
-			background-size: cover;
-
-			content: "";
-		}
 			@media only screen and (min-width : 1921px) {
 				body:before {background-size: cover;}
 			}
@@ -1043,50 +1032,163 @@ body {
 
 				/* Linkflairs */
 				.linkflairlabel {
-					background: none;
-					content: "";
-					padding: 1px 6px 1px 6px;
-					width: 104px;
-					max-width: 104px;
-					height: 25px;
-					border-radius: 1px;
-					border: 0px solid;
+					padding: 1px 6px;height: 17px;
+					border-radius: 2px;
+					border: 0 solid;
+					color: #fff;
+					font-weight: 700;
+					font-style	: normal;
+					font-variant: normal;
+					font-size: 13px;
 					cursor: default;
 					vertical-align: middle;
 					position: relative;
-					background-image: url(%%linkflairs%%);
-					text-indent: -9999em;
+					top: -2px;
+					background-color: #4F8EF7;
 				}
+
+
 					.linkflair-sphysical .linkflairlabel {
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px 0px;
+
 					}
 
 					.linkflair-bphysical .linkflairlabel {
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -25px;
+
 					}
 
 					.linkflair-svirtual .linkflairlabel {
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -51px;
+
 					}
 
 					.linkflair-bvirtual .linkflairlabel {
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -78px;
+
 					}
 
 					.linkflair-mod .linkflairlabel {
 							text-align: left!important;
+							background: none;
+							content: "";
+							padding: 1px 6px 1px 6px;
+							width: 104px;
+							max-width: 104px;
+							height: 25px;
+							border-radius: 1px;
+							border: 0px solid;
+							cursor: default;
+							vertical-align: middle;
+							position: relative;
+							background-image: url(%%linkflairs%%);
+							text-indent: -9999em;
 							background-position: -3px -105px;
 					}
 
 					.linkflair-closed .linkflairlabel {
+						text-align: left!important;
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -131px;
 					}
 
 					.linkflair-hacked .linkflairlabel {
+						text-align: left!important;
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -158px;
 					}
 
 					.linkflair-giveaway .linkflairlabel {
+						text-align: left!important;
+						background: none;
+						content: "";
+						padding: 1px 6px 1px 6px;
+						width: 104px;
+						max-width: 104px;
+						height: 25px;
+						border-radius: 1px;
+						border: 0px solid;
+						cursor: default;
+						vertical-align: middle;
+						position: relative;
+						background-image: url(%%linkflairs%%);
+						text-indent: -9999em;
 						background-position: 0px -184px;
 					}
 
@@ -2221,7 +2323,7 @@ body {
 
 				.submit-page .infobar:before {
 					font-size: 14px;
-					content: "Please submit insightful content that allows for discussion!";
+					content: "Remember to tag your post and link your reference!";
 					display: inline-block;
 				}
 
@@ -3185,6 +3287,12 @@ a[href$="#bs-sportball"] {
 	height: 24px;
 }
 
+.flair-hball::after, a[href$="#ref-hball"] {
+	background-position: -26px -28px;
+	width: 24px;
+	height: 24px;
+}
+
 /* Pokemon flairs */
 
 .flair-megametagross::before, a[href^="#pk-megametagross"] {
@@ -3521,6 +3629,10 @@ a[href$="#bs-sportball"] {
 
 .flair-serperior::before, a[href^="#pk-serperior"] {
 	background-position: -388px -542px;
+}
+
+.flair-mew::before, a[href^="#pk-mew"] {
+	background-position: -512px -152px;
 }
 
 .flair-megascizor::before, a[href^="#pk-megascizor"] {
@@ -4088,4 +4200,16 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 			color: #686E7B;
 		}
 
+		.side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4 {
+			background-color: #424242!important;
+			text-align: center!important;
+		}
+
+		.wiki-page .wiki-page-content .wiki > .toc > ul {
+			background-color : #3b3b3b!important;
+		}
+
+		.listing-page .comment {
+			background-color: #2E3135!important;
+		}
 	/* --- End Addon --- */
