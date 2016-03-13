@@ -897,20 +897,11 @@ body {
 			background-position: 0% 100%;
 			content: "";
 		}
-		[lang="ch"] body:before {
-			height: 200px;
-			top: 0px;
-			position: absolute;
-			width: 100%;
-			left: 0px;
-			right: 0px;
-			background-color: #3A3D4D;
-			background-image: url(%%headerimg2%%);
-			background-repeat: no-repeat;
-			background-position: 0% 0%;
-			background-size: cover;
-			content: "";
-		}
+		[lang="ev"] body:before { background-image: url(%%headerimg1%%); }
+		[lang="ch"] body:before { background-image: url(%%headerimg2%%); }
+		[lang="lg"] body:before { background-image: url(%%headerimg3%%); }
+		[lang="st"] body:before { background-image: url(%%headerimg4%%); }
+
 			@media only screen and (min-width : 1921px) {
 				body:before {background-size: cover;}
 			}
@@ -3296,6 +3287,12 @@ a[href$="#bs-sportball"] {
 	height: 24px;
 }
 
+.flair-hball::after, a[href$="#ref-hball"] {
+	background-position: -26px -28px;
+	width: 24px;
+	height: 24px;
+}
+
 /* Pokemon flairs */
 
 .flair-megametagross::before, a[href^="#pk-megametagross"] {
@@ -4208,5 +4205,7 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 			background-color : #3b3b3b!important;
 		}
 
-
+		.listing-page .comment {
+			background-color: #2E3135!important;
+		}
 	/* --- End Addon --- */
