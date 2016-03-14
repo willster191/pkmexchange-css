@@ -3668,6 +3668,10 @@ a[href$="#bs-sportball"] {
 	background-position: -811px -32px;
 }
 
+.flair-klinklang::before, a[href^="pk-klinklang"] {
+	background-position: -302px -658px;
+}
+
 
 @-webkit-keyframes megabilly{
 	29% { background-position: 0px -35px}
