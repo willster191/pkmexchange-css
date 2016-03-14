@@ -3631,6 +3631,10 @@ a[href$="#bs-sportball"] {
 	background-position: -388px -542px;
 }
 
+.flair-mew::before, a[href^="#pk-mew"] {
+	background-position: -512px -152px;
+}
+
 .flair-megascizor::before, a[href^="#pk-megascizor"] {
 	background-position: -659px -209px;
 }
@@ -3662,6 +3666,14 @@ a[href$="#bs-sportball"] {
 
 .flair-venomoth::before, a[href^="#pk-venomoth"] {
 	background-position: -811px -32px;
+}
+
+.flair-klinklang::before, a[href^="pk-klinklang"] {
+	background-position: -302px -658px;
+}
+
+.flair-megabeedrill::before, a[href^="pk-megabeedrill"] {
+	background-position: -420px -839px;
 }
 
 
