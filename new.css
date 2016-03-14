@@ -3672,6 +3672,10 @@ a[href$="#bs-sportball"] {
 	background-position: -302px -658px;
 }
 
+.flair-megabeedrill::before, a[href^="pk-megabeedrill"] {
+	background-position: -420px -839px;
+}
+
 
 @-webkit-keyframes megabilly{
 	29% { background-position: 0px -35px}
