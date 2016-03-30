@@ -3676,6 +3676,10 @@ a[href$="#bs-sportball"] {
 	background-position: -420px -839px;
 }
 
+.flair-hooh::before, a[href^="pk-hooh"] {
+	background-position: -30px -270px;
+}
+
 
 @-webkit-keyframes megabilly{
 	29% { background-position: 0px -35px}
