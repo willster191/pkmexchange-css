@@ -1338,7 +1338,7 @@ body {
 
 					.RESUserTagImage {
 						height: 10px !important;
-						background-image: url(%%spritesheet%%) !important;
+						background-image: transparent !important;
 						background-position: -192px -34px !important;
 						opacity: 0.25 !important;
 						margin-left: 2px !important;
@@ -3676,6 +3676,10 @@ a[href$="#bs-sportball"] {
 	background-position: -420px -839px;
 }
 
+.flair-hooh::before, a[href^="pk-hooh"] {
+	background-position: -29px -270px;
+}
+
 
 @-webkit-keyframes megabilly{
 	29% { background-position: 0px -35px}
@@ -4079,6 +4083,10 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 		background-position: 0px -907px;
 	}
 
+	.wiki-page-content a[href$="#wiki-banner"] {
+		background-position: 0px -990px;
+	}
+
 	.over18.linkflair .linkflairlabel{
 		background-position: 0px -131px;
 	}
@@ -4219,5 +4227,9 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 		.listing-page .comment {
 			background-color: #2E3135!important;
+		}
+
+		.titlebox form.toggle {
+			background: : transparent!important;
 		}
 	/* --- End Addon --- */
