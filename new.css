@@ -3668,18 +3668,21 @@ a[href$="#bs-sportball"] {
 	background-position: -811px -32px;
 }
 
-.flair-klinklang::before, a[href^="pk-klinklang"] {
+.flair-klinklang::before, a[href^="#pk-klinklang"] {
 	background-position: -302px -658px;
 }
 
-.flair-megabeedrill::before, a[href^="pk-megabeedrill"] {
+.flair-megabeedrill::before, a[href^="#pk-megabeedrill"] {
 	background-position: -420px -839px;
 }
 
-.flair-hooh::before, a[href^="pk-hooh"] {
+.flair-hooh::before, a[href^="#pk-hooh"] {
 	background-position: -29px -270px;
 }
 
+.flair-merrygengar::before, a[href^="#pk-merrygengar"] {
+	background-position: -695px -872px;
+}
 
 @-webkit-keyframes megabilly{
 	29% { background-position: 0px -35px}
