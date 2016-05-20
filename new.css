@@ -891,7 +891,7 @@ body {
 			left: 0px;
 			right: 0px;
 			background-color: #3A3D4D;
-			background-image: url(%%headerimg%%);
+			background-image: url(%%headerimg3%%);
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: 0% 100%;
@@ -4088,6 +4088,10 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 	.wiki-page-content a[href$="#wiki-banner"] {
 		background-position: 0px -990px;
+	}
+
+	.wiki-page-content a[href$="#wiki-irc"] {
+		background-position: 0px -1072px;
 	}
 
 	.over18.linkflair .linkflairlabel{
