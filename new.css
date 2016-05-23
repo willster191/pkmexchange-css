@@ -3414,6 +3414,11 @@ a[href$="#bs-sportball"] {
 	background-position: -500px -210px;
 }
 
+.flair-megasharpedo::before, a[href^="#pk-megasharpedo"]{
+	background-position: -511px -841px;
+	
+}
+
 .flair-gible::before, a[href^="#pk-gible"]{
 	background-position: -270px -480px;
 }
