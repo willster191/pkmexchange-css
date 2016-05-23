@@ -3638,6 +3638,11 @@ a[href$="#bs-sportball"] {
 	background-position: -659px -209px;
 }
 
+.flair-megasharpedo::before, a[href^="pk-megasharpedo"] {
+	background-position:-511px -841px;
+	
+}
+
 .flair-megablaziken::before, a[href^="#pk-megablaziken"] {
 	background-position: -271px -269px;
 }
