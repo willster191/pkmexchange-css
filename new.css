@@ -1,4 +1,3 @@
-
 *, *:before, *:after { -webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box;}
 
 body {
@@ -891,7 +890,7 @@ body {
 			left: 0px;
 			right: 0px;
 			background-color: #3A3D4D;
-			background-image: url(%%headerimg%%);
+			background-image: url(%%headerimg3%%);
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: 0% 100%;
@@ -1338,7 +1337,7 @@ body {
 
 					.RESUserTagImage {
 						height: 10px !important;
-						background-image: url(%%spritesheet%%) !important;
+						background-image: transparent !important;
 						background-position: -192px -34px !important;
 						opacity: 0.25 !important;
 						margin-left: 2px !important;
@@ -3668,18 +3667,21 @@ a[href$="#bs-sportball"] {
 	background-position: -811px -32px;
 }
 
-.flair-klinklang::before, a[href^="pk-klinklang"] {
+.flair-klinklang::before, a[href^="#pk-klinklang"] {
 	background-position: -302px -658px;
 }
 
-.flair-megabeedrill::before, a[href^="pk-megabeedrill"] {
+.flair-megabeedrill::before, a[href^="#pk-megabeedrill"] {
 	background-position: -420px -839px;
 }
 
-.flair-hooh::before, a[href^="pk-hooh"] {
-	background-position: -30px -270px;
+.flair-hooh::before, a[href^="#pk-hooh"] {
+	background-position: -29px -270px;
 }
 
+.flair-merrygengar::before, a[href^="#pk-merrygengar"] {
+	background-position: -695px -872px;
+}
 
 @-webkit-keyframes megabilly{
 	29% { background-position: 0px -35px}
@@ -4083,6 +4085,14 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 		background-position: 0px -907px;
 	}
 
+	.wiki-page-content a[href$="#wiki-banner"] {
+		background-position: 0px -990px;
+	}
+
+	.wiki-page-content a[href$="#wiki-irc"] {
+		background-position: 0px -1072px;
+	}
+
 	.over18.linkflair .linkflairlabel{
 		background-position: 0px -131px;
 	}
@@ -4223,5 +4233,9 @@ a[href$="user/robertoxmed"]:after {content:"Vovvy (robertoxmed)";visibility:visi
 
 		.listing-page .comment {
 			background-color: #2E3135!important;
+		}
+
+		.titlebox form.toggle {
+			background: : transparent!important;
 		}
 	/* --- End Addon --- */
