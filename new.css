@@ -3684,6 +3684,14 @@ a[href$="#bs-sportball"] {
 	background-position: -695px -872px;
 }
 
+.flair-xerneas::before, a[href^="#pk-xerneas"] {
+    background-position: -510px -810px;
+}
+
+.flair-megasharpedo::before, a[href^="#pk-megasharpedo"] {
+    background-position: -511px -841px;
+}
+
 @-webkit-keyframes megabilly{
 	29% { background-position: 0px -35px}
 	30% { background-position: 0px 0px }
