@@ -77,8 +77,6 @@ body {
 				box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0px 4px 0 rgba(0,0,0,.12);
 			}
 
-
-
 	/* Header */
 	#header {
 		margin: 0px;
@@ -87,15 +85,15 @@ body {
 		background-color: #30333A;
 		background-image: url(%%headerimg%%);
 		background-repeat: no-repeat;
-		background-position: 50% 50%;
+		background-position: 0% 50%;
 		background-size: cover;
 		z-index: 1;
 		box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0px 4px 0 rgba(0,0,0,.12);
 	}
-		/*[lang="ev"] #header { background-image: url(%%headerimg1%%); }
+	[lang="ev"] #header { background-image: url(%%headerimg1%%); }
 	[lang="ch"] #header { background-image: url(%%headerimg2%%); }
 	[lang="lg"] #header { background-image: url(%%headerimg3%%); }
-	[lang="st"] #header { background-image: url(%%headerimg4%%); }*/
+	[lang="st"] #header { background-image: url(%%headerimg4%%); }
 
 		/* Subreddits Bar */
 		#sr-header-area {
@@ -962,7 +960,7 @@ body {
 					background-position: 0px -181px;
 				}
 
-						.linkflair-mod a {color: #27b062!important;}
+						/*.linkflair-mod a {color: #27b062!important;}*/
 						.linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {background: url(%%spritesheet%%) -96px -48px !important;}
 
 				/* Reported & Spam/Remove/Approves */
@@ -3955,6 +3953,8 @@ animation-timing-function: ease-in;
 	.stickied.link .entry .tagline { color: #FFF; }
 	.stickied.link .flair {color: #FFF; }
 
+	.stickied.link .usertext .md { color: #fff;	}
+
 
 .link {
 	border-radius: 8px !important;
@@ -3987,7 +3987,7 @@ animation-timing-function: ease-in;
 .md table th { text-align:center }
 .md table thead { background-color:#929292 }
 .md table tbody tr:nth-child(odd){ background-color:transparent }
-.md table tbody tr:nth-child(even){ background-color:#868585; }
+.md table tbody tr:nth-child(even){ background-color:#AEAEAE; }
 .md table td,.md table th { padding:4px 8px;border-right:1px solid #ccc }
 
 body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
@@ -4030,7 +4030,7 @@ body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
 .md ol li ol,.md ul li ul { padding:0 }
 
 .md ol li:nth-child(odd),.md ul li:nth-child(odd) {
-	background-color:#868585;
+	background-color:#AEAEAE;
 }
 .md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;color:#ccc}
 
@@ -4044,11 +4044,11 @@ body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
 
 .md h3+table td,.md h3+table th{border-right-color:#5BA2FF}
 
-.md h3+table thead,.md h3+table tr:nth-child(even){background-color:#355682}
+.md h3+table thead,.md h3+table tr:nth-child(even){background-color:#6097E1}
 
 .md h4+table{border-color:rgba(187, 147, 243, 1)}.md h4+table td,.md h4+table th{border-right-color:rgba(187, 147, 243, 1)}
 
-.md h4+table thead,.md h4+table tr:nth-child(even){background-color:#574475}
+.md h4+table thead,.md h4+table tr:nth-child(even){background-color:#A07DD7}
 
 .md h5+table{border-color:rgba(239, 122, 122, 1)}
 
@@ -4068,11 +4068,11 @@ body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
 
 .md h3+ol,.md h3+ul{border-left-color:#CAE1FF; border-right-color: #CAE1FF;}
 
-.md h3+ol li:nth-child(odd),.md h3+ul li:nth-child(odd){background-color:#355682}
+.md h3+ol li:nth-child(odd),.md h3+ul li:nth-child(odd){background-color:#6097E1}
 
 .md h4+ol,.md h4+ul{border-left-color:rgba(187, 147, 243, 0.7); border-right-color: rgba(187, 147, 243, 0.7);}
 
-.md h4+ol li:nth-child(odd),.md h4+ul li:nth-child(odd){background-color:#574475}
+.md h4+ol li:nth-child(odd),.md h4+ul li:nth-child(odd){background-color:#A07DD7}
 
 .md h5+ol,.md h5+ul{border-left-color:rgba(239, 122, 122, 0.51); border-right-color: rgba(239, 122, 122, 0.51)}
 
@@ -4252,6 +4252,53 @@ li>code,p>code{padding:0 3px;color:#222!important}
 
 .over18.linkflair .linkflairlabel{
 	background-position: 0px -129px;
+}
+
+.over18.link {
+	background: 0 0 !important;
+}
+
+.nsfw-stamp acronym {
+	display: inline-block;
+	font-size: 0px !important;
+	letter-spacing: 0px;
+	overflow: hidden;
+	vertical-align: bottom;
+	background-color: transparent !important
+}
+
+.nsfw-stamp acronym:after {
+	color: #FFFFFF !important;
+	content: "Exchange Closed!" !important;
+	display: inline-block;
+	font-size: x-small !important;
+	text-decoration: none;
+	visibility: visible !important
+}
+
+.marknsfw-button a[href="#"], .unmarknsfw-button a[href="#"] {
+	font-size: 0px !important;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	letter-spacing: -20px;
+	height: 16px;
+}
+
+/* Revamp of the NSFW button */
+
+.unmarknsfw-button a[href="#"]:before, .marknsfw-button a[href="#"]:before {
+	font-size: 10px !important;
+	visibility: visible !important;
+	display: block;
+	letter-spacing: normal }
+
+.marknsfw-button a[href="#"]:before {
+	content: "Close Exchange!"
+}
+
+.unmarknsfw-button a[href="#"]:before {
+	content: "Re-Open!"
 }
 
 .submit.mod-override .morelink a {display: none!important}
