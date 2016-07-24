@@ -4294,3 +4294,7 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .submit.mod-override .morelink a {display: none!important}
 
 .side .titlebox {margin-top: -96px; }
+
+.link .entry .buttons li + li { display: none }
+
+.link:hover .entry .buttons li + li { display: inline!important;}
