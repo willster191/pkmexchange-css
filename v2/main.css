@@ -1021,7 +1021,7 @@ body {
 
 					.thing.link.stickied a.title, .thing.link.stickied a, .thing.link.stickied .entry li .comments {
 													color: #EFEFEF!important;
-													text-shadow: 1px 1px #0600FF;}
+													text-shadow: 1px 1px #565656;}
 					.thing.link.stickied .expando-button:hover {background-color: #27b062!important;border-color: #27b062!important;}
 					.tagline .stickied-tagline {color: #b3b3b3;cursor: help;}
 
@@ -3934,20 +3934,18 @@ animation-timing-function: ease-in;
 -webkit-animation-timing-function: ease;
 }
 
-
 .res .RES-keyNav-activeElement .md-container {
 	background-color: transparent!important;
 }
 
 .stickied.link {
-	border: 3px solid #0F41A7 !important;
-	background-color: RGB(0, 83, 191) !important;
+	border: 3px solid #CEDDFC !important;
+	background-color: RGB(83, 112, 134) !important;
 }
 	.stickied.link .entry .tagline { color: #FFF; }
 	.stickied.link .flair {color: #FFF; }
 
 	.stickied.link .usertext .md { color: #fff;	}
-
 
 .link {
 	border-radius: 8px !important;
@@ -3955,7 +3953,6 @@ animation-timing-function: ease-in;
 	margin-bottom: 5px !important;
 	background-color: #dedede;
 }
-
 
 .tagline .userattrs .cakeday {
 	background-image: url(%%mflairs%%);
@@ -4297,7 +4294,3 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .submit.mod-override .morelink a {display: none!important}
 
 .side .titlebox {margin-top: -96px; }
-
-.stickied.link .usertext .md .h1, .stickied.link .usertext .md .h2, .stickied.link .usertext .md .h3 {
-	color: #fff!important;
-}
