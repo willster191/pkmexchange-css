@@ -533,10 +533,9 @@ body {
 					a.thumbnail[href*="reddit.com"] 	{background: url(%%spritesheet%%) -176px -160px;}
 						a.thumbnail[href*="reddit.com"] img {display: none;}
 
-
 			/* Inner Post Area */
 			.link .entry {
-				padding: 0;
+				padding: 3px;
 				margin: 0;
 				max-width: 960px;
 			}
@@ -1014,8 +1013,6 @@ body {
 					background-color: rgba(0,0,0,0.04);
 					border: none;
 				}
-
-
 
 				/* Sticky Post */
 				.thing.stickied {
@@ -1832,7 +1829,7 @@ body {
 				.titlebox .tagline:after {
 					content: "";
 						height: 2px;
-						background-color: #f2f2f2;
+						background-color: #8a8a8a;
 						display: block;
 						margin-top: 16px;
 				}
@@ -1924,7 +1921,7 @@ body {
 					}
 
 
-			.md hr {border: solid 1px #e5e5e5;}
+			.md hr {border: solid 1px #8a8a8a;}
 
 
 		.titlebox .bottom {display: none;}
@@ -1983,6 +1980,7 @@ body {
 				top: 0px;
 				width: 100%;
 				background-color: #fff;
+				display: none !important;
 			}
 
 				.sidebox.create .morelink a {font-size: 14px;color: #24a0ed;}
@@ -1997,7 +1995,7 @@ body {
 			margin: 0px 0px;
 			padding: 10px 0px;
 			color: #24A0ED;
-			content: "This subreddit uses the /r/Naut theme.";
+			content: "CSS theme based on /r/Naut.";
 			text-transform: none;
 			font-size: 16px;
 			font-family: Lato, arial, sans-serif;
@@ -2947,13 +2945,8 @@ body {
 					margin-left: 8px;
 				}
 
-
 		/* Footer */
 		.footer-parent {
-			height: 800px;
-			margin-top: 192px;
-			padding: 528px 0 64px 0;
-			background-image: url(%%footer%%);
 			background-repeat: no-repeat;
 			background-position: 50% 0%;
 			background-size: cover;
@@ -3107,7 +3100,7 @@ body {
 			.res .NERPageMarker {
 				border-radius: 0px;
 				border: none;
-				background-color: #fff;
+				background-color: #dedede;
 				padding: 16px 0px;
 				margin: 0px;
 			}
@@ -4032,7 +4025,7 @@ body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
 .md ol li:nth-child(odd),.md ul li:nth-child(odd) {
 	background-color:#AEAEAE;
 }
-.md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;color:#ccc}
+.md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;}
 
 .md h2+table{ border-color:rgba(172, 230, 213, 0.6)}
 
@@ -4304,3 +4297,7 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .submit.mod-override .morelink a {display: none!important}
 
 .side .titlebox {margin-top: -96px; }
+
+.stickied.link .usertext .md .h1, .stickied.link .usertext .md .h2, .stickied.link .usertext .md .h3 {
+	color: #fff!important;
+}
