@@ -4023,7 +4023,7 @@ body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
 .md ol li ol,.md ul li ul { padding:0 }
 
 .md ol li:nth-child(odd),.md ul li:nth-child(odd) {
-	background-color:#AEAEAE;
+	background-color:#bbbbbb;
 }
 .md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;}
 
