@@ -672,7 +672,7 @@ body {
 						font-size: 11px;
 					}
 
-						.link .entry .tagline .userattrs a.moderator {background-color: #27b062;}
+						.link .entry .tagline .userattrs a.moderator {background-color: #800080;}
 
 
 																							.RESUserTagImage::after { display: none }
@@ -847,7 +847,7 @@ body {
 					position: relative;
 					background-image: url(%%linkflairs%%);
 					text-indent: -9999em;
-					background-position: 0px -23px;
+					background-position: 0px -24px;
 
 				}
 
@@ -883,7 +883,7 @@ body {
 					position: relative;
 					background-image: url(%%linkflairs%%);
 					text-indent: -9999em;
-					background-position: 0px -76px;
+					background-position: 0px -77px;
 
 				}
 
@@ -956,10 +956,10 @@ body {
 					position: relative;
 					background-image: url(%%linkflairs%%);
 					text-indent: -9999em;
-					background-position: 0px -181px;
+					background-position: 0px -182px;
 				}
 
-						/*.linkflair-mod a {color: #27b062!important;}*/
+						/*.linkflair-mod a {color: #800080!important;}*/
 						.linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {background: url(%%spritesheet%%) -96px -48px !important;}
 
 				/* Reported & Spam/Remove/Approves */
@@ -1022,12 +1022,12 @@ body {
 					.thing.link.stickied a.title, .thing.link.stickied a, .thing.link.stickied .entry li .comments {
 													color: #EFEFEF!important;
 													text-shadow: 1px 1px #565656;}
-					.thing.link.stickied .expando-button:hover {background-color: #27b062!important;border-color: #27b062!important;}
+					.thing.link.stickied .expando-button:hover {background-color: #800080!important;border-color: #800080!important;}
 					.tagline .stickied-tagline {color: #b3b3b3;cursor: help;}
 
 
 				/* Sticky Comment */
-				.stickied.comment>.entry a, .stickied.comment .tagline .stickied-tagline {color: #27b062!important}
+				.stickied.comment>.entry a, .stickied.comment .tagline .stickied-tagline {color: #800080!important}
 
 				/* Ad */
 				.content .spacer {margin: 0;}
@@ -1422,12 +1422,12 @@ body {
 
 
 				/* Locked Post */
-				.reddit-infobar.with-icon.locked-infobar {background-color:#27B062 }
+				.reddit-infobar.with-icon.locked-infobar {background-color:#800080 }
 					.reddit-infobar.with-icon.locked-infobar .md {color: #fff;}
 
 				.reddit-infobar.with-icon.locked-infobar p:after {content: " Sort comments by new to find out more."}
 				.reddit-infobar.with-icon.locked-infobar:before {
-					background-color: #27B062;
+					background-color: #800080;
 					border-right: 1px solid rgba(0, 0, 0, 0.08);
 				}
 
@@ -1537,7 +1537,7 @@ body {
 				div.titlebox span.word {display: none;}
 				.titlebox .users-online {display: inline;}
 				.titlebox .users-online:before {display: none;}
-				div.titlebox span.number:after {content: " readers";}
+				div.titlebox span.number:after {content: " trainers want to be the very best.";}
 				.titlebox .users-online .number {font-style: italic;}
 
 				.titlebox .users-online .number:before {
@@ -1760,7 +1760,7 @@ body {
 				letter-spacing: 0px;
 			}
 
-				.sidebox.submit.submit-text .morelink a:after {font-size: 14px; content:"Submit Text";}
+				.sidebox.submit.submit-text .morelink a:after {font-size: 14px; content:"Submit an Exchange!";}
 				.sidebox.submit.submit-link .morelink a:after {font-size: 14px; content:"Submit Link";}
 
 			.side .sidebox.submit-text .morelink:before, .side .sidebox.submit-link .morelink:after {
@@ -1774,7 +1774,10 @@ body {
 				background-color: rgba(0,0,0,0.08);
 				font-weight: normal;
 				z-index: -1;
+				display: none;
 			}
+
+
 
 				.side .sidebox.submit-link .morelink:after {left: 168px;}
 
@@ -1896,10 +1899,10 @@ body {
 
 			.side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4 {
 				padding: 0 16px;
-				background-color: #FFF;
+				background-color: #ebebeb;
 				border: none;
 				border-radius: 2px;
-				color: #24a0ed;
+				color: #537086;
 				font-weight: bold;
 				display: block;
 				margin: 1.5em 0em;
@@ -2003,8 +2006,8 @@ body {
 			width: 320px;
 			border: 1px solid rgba(0, 0, 0, 0.06);
 			text-align: center;
-		}
 
+		}
 
 
 		/* Comments Page */
@@ -2072,7 +2075,7 @@ body {
 					}
 
 			.commentarea>.usertext {
-				background-color: #FAFAFA !important;
+				background-color: #fafafa !important;
 				margin: -58px 0 16px 0;
 				padding: 64px 16px 16px 16px !important;
 				overflow: visible;
@@ -2208,7 +2211,7 @@ body {
 								}
 
 								.tagline .moderator, .green {
-									color: #27b062 !important;
+									color: #800080 !important;
 									font-weight: bold;
 								}
 
@@ -2316,7 +2319,7 @@ body {
 					top: 393px;
 					padding: 16px;
 					width: 320px;
-					background-color: #fff;
+					background-color: #fafafa;
 					border-radius: 2px;
 					box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
 					border: none;
@@ -2760,7 +2763,7 @@ body {
 
 				.wiki-page .wiki-page-content hr {
 					border-style: solid;
-					border-color: #edf1f3
+					border-color: #8a8a8a
 				}
 
 				.wiki-page .wiki-page-content em {color: #484848;}
@@ -2970,7 +2973,7 @@ body {
 
 		/* Bunch of RES (Reddit Enhancement Suite) Fixes */
 		.res .link .tagline a.voteWeight {background-color: transparent !important;}
-		.res .thing .tagline .author.moderator {background-color: #27b062 !important;padding: 1px 4px;border-radius: 1px;}
+		.res .thing .tagline .author.moderator {background-color: #800080 !important;padding: 1px 4px;border-radius: 1px;}
 		#header-bottom-right #userbarToggle + * {margin-left: 0px !important;}
 
 		.res .srSep {color: rgba(255,255,255,0.45);}
@@ -3088,7 +3091,7 @@ body {
 			padding: 16px;
 			margin: 16px 0px 16px 0px;
 			color: #b3b3b3;
-			background-color: #fff;
+			background-color: #dedede;
 			height: inherit;
 		}
 
@@ -3102,7 +3105,7 @@ body {
 				border: none;
 				background-color: #dedede;
 				padding: 16px 0px;
-				margin: 0px;
+				margin: 16px 0px 16px 0px;
 			}
 
 			.res .sitetable .sitetable {margin-right: 0px;}
@@ -3334,7 +3337,7 @@ vertical-align: middle;
 
 .flair-banned::after {
 	background: 0 0;
-	margin: 0 0 3px 5px;
+	margin: 0 0 0 5px;
 	width: inherit;
 	height: inherit;
 	content: " Banned User";
@@ -4081,7 +4084,7 @@ body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
 .md.wiki pre,.usertext-body pre,li>code,p>code{
 	overflow:auto;
 	border:1px solid #ccc;
-	background-color:#fbf9f4;
+	background-color:#ebebeb;
 	color:#222!important;
 	font-size:11px
 }
