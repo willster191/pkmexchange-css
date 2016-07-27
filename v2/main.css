@@ -1728,7 +1728,7 @@ body {
 			top: 350px;
 			background-color: #0079d3;
 			background-image: none !important;
-			width: 152px;
+			width: 320px;
 			height: 36px;
 			border-radius: 2px;
 			line-height: 36px;
@@ -1750,7 +1750,7 @@ body {
 					box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0px 4px 0 rgba(0,0,0,.12);
 				}
 
-			.sidebox.submit.submit-text .morelink {margin-left: 168px;}
+			.sidebox.submit.submit-text .morelink {margin-left: 0px;}
 
 
 			.morelink a {
