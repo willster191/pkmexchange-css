@@ -865,7 +865,7 @@ body {
 					position: relative;
 					background-image: url(%%linkflairs%%);
 					text-indent: -9999em;
-					background-position: 0px -51px;
+					background-position: 0px -50px;
 
 				}
 
@@ -883,7 +883,7 @@ body {
 					position: relative;
 					background-image: url(%%linkflairs%%);
 					text-indent: -9999em;
-					background-position: 0px -77px;
+					background-position: 0px -78px;
 
 				}
 
@@ -902,7 +902,7 @@ body {
 						position: relative;
 						background-image: url(%%linkflairs%%);
 						text-indent: -9999em;
-						background-position: -3px -103px;
+						background-position: -3px -104px;
 				}
 
 				.linkflair-closed .linkflairlabel {
@@ -920,7 +920,7 @@ body {
 					position: relative;
 					background-image: url(%%linkflairs%%);
 					text-indent: -9999em;
-					background-position: 0px -131px;
+					background-position: 0px -130px;
 				}
 
 				.linkflair-hacked .linkflairlabel {
@@ -958,6 +958,24 @@ body {
 					text-indent: -9999em;
 					background-position: 0px -182px;
 				}
+				
+				.linkflair-ptcgo .linkflairlabel {
+					text-align: left!important;
+					background: none;
+					content: "";
+					padding: 1px 6px 1px 6px;
+					width: 104px;
+					max-width: 104px;
+					height: 27px;
+					border-radius: 1px;
+					border: 0px solid;
+					cursor: default;
+					vertical-align: middle;
+					position: relative;
+					background-image: url(%%linkflairs%%);
+					text-indent: -9999em;
+					background-position: 0px -208px;
+				}				
 
 						/*.linkflair-mod a {color: #800080!important;}*/
 						.linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {background: url(%%spritesheet%%) -96px -48px !important;}
@@ -1632,7 +1650,7 @@ body {
 				width: 320px;
 				height: 42px;
 				line-height: 41px;
-				background-color: #fff;
+				background-color: #fafafa;
 
 
 				box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
@@ -4119,7 +4137,7 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .md [href$="#svirtual"] {
 	display: block;
 	background-image: url(%%linkflairs%%);
-	background-position: -3px -53px;
+	background-position: -3px -52px;
 	width: 100px;
 	height: 24px;
 }
@@ -4127,7 +4145,7 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .md [href$="#modpost"] {
 	display: block;
 	background-image: url(%%linkflairs%%);
-	background-position: -3px -105px;
+	background-position: -3px -104px;
 	width: 100px;
 	height: 24px;
 }
@@ -4135,7 +4153,15 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .md [href$="#hacked"] {
 	display: block;
 	background-image: url(%%linkflairs%%);
-	background-position: -3px -158px;
+	background-position: -3px -156px;
+	width: 100px;
+	height: 24px;
+}
+
+.md [href$="#ptcgo"] {
+	display: block;
+	background-image: url(%%linkflairs%%);
+	background-position: -3px -208px;
 	width: 100px;
 	height: 24px;
 }
@@ -4143,7 +4169,7 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .md [href$="#giveaway"] {
 	display: block;
 	background-image: url(%%linkflairs%%);
-	background-position: -3px -184px;
+	background-position: -3px -182px;
 	width: 100px;
 	height: 24px;
 }
